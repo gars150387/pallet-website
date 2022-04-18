@@ -1,0 +1,33 @@
+img {
+    width: 800px;
+    height: 500px;
+}
+
+.imgDiv {
+    padding: 0px;
+    margin: 0px;
+}
+
+#carouselItem{
+    color: transparent;
+}
+
+.container-fluid{
+    padding: 0px;
+    margin: 0px;
+}
+
+.carousel-control-next{
+    z-index: 0;  
+    color: transparent;
+}
+
+.carousel-control-prev{
+    z-index: 0;
+    color: transparent;
+}
+
+.carousel-indicators{
+    z-index: 0;
+    color: transparent;
+}

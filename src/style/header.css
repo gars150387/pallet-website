@@ -1,0 +1,20 @@
+body{
+    background-color: gray;
+}
+.div-logo{
+    width: 150px;
+    height: 150px;
+}
+#logo{
+    height: 200px;
+    width: 200px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+#icons{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    /* margin: 2px;
+    margin-top: 15px; */
+}

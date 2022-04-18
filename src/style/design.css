@@ -1,0 +1,34 @@
+.designComponent{
+    background-image: url('https://i.pinimg.com/originals/db/76/76/db7676a114b1da549b48477d9750b2b9.jpg');
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+
+#designImg{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    border: solid 2px ;
+    align-items: center;
+}
+
+#template{
+    width: 100%;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    align-items: center;
+    border: solid 3px black;
+    border-radius: 15px;
+    /* margin: 15px; */
+    
+}
+.animate__animated {
+    -webkit-animation-duration: 55s;
+    animation-duration: 55s;
+    -webkit-animation-duration: var(--animate-duration);
+    animation-duration: var(--animate-duration);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: calc(1);
+    animation-iteration-count: calc(1);
+  }

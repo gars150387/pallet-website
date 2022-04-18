@@ -1,0 +1,12 @@
+#logo{
+    height: 220px;
+    width: 370px;
+    /* padding-bottom: 15px;
+    padding-top: 15px; */
+    /* align-items: center; */
+}
+#secondNavbar{
+    border-top: solid 2px white;
+}
+#headerContainer{
+background-color: #212529;}

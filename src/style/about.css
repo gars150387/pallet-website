@@ -1,0 +1,22 @@
+.text-about {
+    font-family: Times New Roman, 'Times', serif;
+    font-size: 12px;
+    text-align: justify;
+    padding-top: 20px;
+}
+  .animate__animated {
+    -webkit-animation-duration: 15s;
+    animation-duration: 15s;
+    -webkit-animation-duration: var(--animate-duration);
+    animation-duration: var(--animate-duration);
+    /* -webkit-animation-fill-mode: both;
+    animation-fill-mode: both; */
+    /* -webkit-animation-iteration-count: infinite; */
+    /* animation-iteration-count: infinite; */
+  }
+  
+  #magazine {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 15px;
+}
