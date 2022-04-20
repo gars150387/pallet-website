@@ -3,6 +3,7 @@ img {
     height: 500px;
 }
 
+
 .imgDiv {
     padding: 0px;
     margin: 0px;
@@ -11,10 +12,14 @@ img {
 #carouselItem{
     color: transparent;
 }
-
 .container-fluid{
     padding: 0px;
-    margin: 0px;
+    
+}
+#container-fluid{
+    background-image: url('https://i.pinimg.com/originals/db/76/76/db7676a114b1da549b48477d9750b2b9.jpg');
+    background-size: contain;
+    background-repeat: repeat-x;
 }
 
 .carousel-control-next{
