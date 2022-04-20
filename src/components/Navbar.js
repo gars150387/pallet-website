@@ -1,6 +1,6 @@
-import React, { useContext } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import { Col, Navbar, Container, Nav, NavDropdown } from 'react-bootstrap'
+import { Navbar, Container, Nav } from 'react-bootstrap'
 import '../img/logo.png';
 import '../img/officalLogo.jpg';
 import '../img/white-logo-transparent-background.png'
@@ -13,26 +13,10 @@ import '../style/navbar.css'
 
 
 
-export const NavbarWebsite = ( ) => {
+export const NavbarWebsite = () => {
 
     return (
         <div className="mb-2">
-            {/* <Container id="headerContainer" fluid >
-                <Navbar collapseOnSelect expand="lg" bg="" variant="">
-                    <Container fixed="top">
-                        <Navbar.Collapse id="responsive-navbar-nav">
-                            <Col  md={{ span: 8, offset: 4 }} className="justify-content-center">
-                                <Link to="/">
-                                    <img src={require('../img/white-logo-transparent-background.png')}
-                                        alt='logo'
-                                        id='logo'
-                                    />
-                                </Link>
-                            </Col>
-                        </Navbar.Collapse>
-                    </Container>
-                </Navbar>
-            </Container> */}
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
             </Navbar>
             <Navbar id="secondNavbar" collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -41,21 +25,21 @@ export const NavbarWebsite = ( ) => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="./about">About</Nav.Link>
-                            <Nav.Link href="./design">Design</Nav.Link>
-                            <Nav.Link href="./contact">Contact Us</Nav.Link>
-
+                            <Link to="./about">
+                                <h5>About </h5>
+                            </Link>
+                            <Link to="./design">
+                                <h5 >Design </h5>
+                            </Link>
+                            <Link to="./contact">
+                                <h5>Contact Us</h5>
+                            </Link>
                         </Nav>
                         <Nav>
 
                             <Nav.Link eventKey={2} target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Pallet305"><FaFacebookF id='icons' /></Nav.Link>
                             <Nav.Link eventKey={2} target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pallet_305/"><FaInstagram id='icons' /></Nav.Link>
                             <Nav.Link eventKey={2} target="_blank" rel="noopener noreferrer" href="https://wa.me/message/SXDE7GX6G4OUF1"><ImWhatsapp id='icons' /></Nav.Link>
-                            {/* <NavDropdown title="" id="collasible-nav-dropdown">
-                                <NavDropdown.Item href="./en">English</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="./es">Spanish</NavDropdown.Item>
-                            </NavDropdown> */}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
