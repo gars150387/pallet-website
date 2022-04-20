@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Col, Navbar, Container, Nav, NavDropdown } from 'react-bootstrap'
+import { Col, Navbar, Container } from 'react-bootstrap'
 import '../img/white-logo-transparent-background.png'
 
 import 'bootstrap/dist/css/bootstrap.min.css';

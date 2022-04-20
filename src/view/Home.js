@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { CarouselElement }from '../components/CarouselElement'
 
 import 'bootstrap/dist/css/bootstrap.min.css';

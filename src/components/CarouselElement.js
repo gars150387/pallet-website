@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { CarouselItem1 } from './CarouselItem1'
 // import { CarouselItem2 } from './CarouselItem2'
-import { CarouselItem3 } from './CarouselItem3'
+// import { CarouselItem3 } from './CarouselItem3'
 import { CarouselItem4 } from './CarouselItem4'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
