@@ -17,7 +17,7 @@ export const Footer = () => (
 			<Navbar bg="dark" variant="dark">
 				<Container>
 					<Row>
-						<Row></Row>
+						<Row style={{height: "10px"}}></Row>
 						<Col md={ 6 }>
 							<Link to="./about">
 								<h5 >About</h5>
