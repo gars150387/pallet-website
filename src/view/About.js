@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import { ScrollUp } from '../components/ScrollUp';
 
 import '../style/about.css';
 
@@ -11,6 +12,7 @@ import '../img/PHOTO-2022-03-24-15-34-13.jpg'
 export const About = () => {
     return (
         <Container className='aboutContainer'>
+                  <ScrollUp/>
             <Row>
                 <Col md={7} className='text-about'>
                     <h4 >

@@ -1,6 +1,7 @@
 import React from 'react'
 import { DesignTemplate } from '../components/DesignTemplate';
 import { DesignData } from '../components/DesignData';
+import { ScrollUp } from '../components/ScrollUp';
 
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -8,6 +9,7 @@ export const Design = () => {
 
     return (
         <div className='designComponent'>
+                  <ScrollUp/>
             <Container>
                 <Row>
                     <Col md={{ span: 6, offset: 3 }} >
