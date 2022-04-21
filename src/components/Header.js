@@ -9,7 +9,7 @@ import '../style/navbar.css'
 
 export const Header = () => {
     return (
-        <Container className="sticky-top" id="headerContainer" fluid>
+        <Container id="headerContainer" fluid>
             <Navbar collapseOnSelect expand="lg" bg="" variant="">
                 <Container>
                     <Navbar.Collapse id="responsive-navbar-nav">
