@@ -9,23 +9,30 @@ h5{
     margin-top: 10px;
     font-size: 20px;
 }
+h5:hover{
+    background-color: white;
+    color: #212529;
+    border: white solid 2px;
+    border-radius: 15px;
+    width: max-content;
+    height: max-content;
+}
 a{
     text-decoration: none;
 }
 #iconsFooter{
     color: white;
-    font-size: 35px;
+    font-size: 25px;
     display: block;
     cursor: pointer;
 }
-
-#iconsFooterPayment{
-    color: white;
-    font-size: 40px;;
-    padding: 0px;
-    margin: 0px;
+#iconsFooter:hover{
+    background-color: white;
+    color: #212529;
+    font-size: 60px;
+    border: white solid 2px;
+    border-radius: 15px;
 }
-
 
 #iconsRow{
     display: flex;
