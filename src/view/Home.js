@@ -1,5 +1,7 @@
 import React from "react";
-import { CarouselElement }from '../components/CarouselElement'
+import { CarouselMain } from '../components/Carousel'
+import { Col } from "react-bootstrap";
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/home.css';
@@ -9,7 +11,10 @@ export const Home = () => {
 
 	return (
 		<div>
-			<CarouselElement/>
+			<Col md={{ span: 6, offset: 3 }}>
+				<CarouselMain />
+			</Col>
+
 		</div>
 	)
 };
