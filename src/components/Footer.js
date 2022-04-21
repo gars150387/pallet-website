@@ -34,14 +34,14 @@ export const Footer = () => (
 					<Col md={4}>
 						<Row style={{ height: "15px", color: "white", position: 'absolute', top: '28px' }}> <h5>Follow us</h5></Row>
 						<Row xs={4} className="mt-3 align-justify">
-							<Col className="justify-content-center" style={{fontSize: "40px", marginRight: "-9px" }}>
-								<a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Pallet305"><FaFacebookF id='iconsFooter' style={{ fontSize: "31px" }} /></a>
+							<Col className="justify-content-center" style={{fontSize: "50px", marginRight: "-4px" }}>
+								<a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Pallet305"><FaFacebookF id='iconsFooter' style={{ fontSize: "34px" }} /></a>
 							</Col>
-							<Col className="justify-content-center" style={{fontSize: "40px", marginRight: "-1px" }}>
+							<Col className="justify-content-center" style={{fontSize: "50px", marginRight: "-3px" }}>
 								<a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pallet_305/"><FaInstagram id='iconsFooter' style={{ fontSize: "35px" }} /></a>
 							</Col>
-							<Col className="justify-content-center" style={{fontSize: "40px" }}>
-								<a target="_blank" rel="noopener noreferrer" href="https://wa.me/message/SXDE7GX6G4OUF1"><ImWhatsapp id='iconsFooter' style={{ fontSize: "32px" }} /></a>
+							<Col className="justify-content-center" style={{fontSize: "60px" }}>
+								<a target="_blank" rel="noopener noreferrer" href="https://wa.me/message/SXDE7GX6G4OUF1"><ImWhatsapp id='iconsFooter' style={{ fontSize: "37px" }} /></a>
 							</Col>
 						</Row>
 						<br />
