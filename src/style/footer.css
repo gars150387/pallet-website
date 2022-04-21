@@ -21,17 +21,25 @@ a{
     text-decoration: none;
 }
 #iconsFooter{
-    color: white;
-    font-size: 25px;
-    display: block;
-    cursor: pointer;
-}
-#iconsFooter:hover{
     background-color: white;
     color: #212529;
     font-size: 60px;
     border: white solid 2px;
     border-radius: 15px;
+    display: block;
+    cursor: pointer;
+
+    animation: 3s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+#iconsFooter:hover{
+    animation: none;
+    background-color: white;
+    color: #212529;
+    font-size: 60px;
+    border: white solid 2px;
+    border-radius: 15px;
+    
 }
 
 #iconsRow{

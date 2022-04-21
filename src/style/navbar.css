@@ -1,22 +1,25 @@
-#logo{
-    height: 220px;
-    width: 370px;
-    /* padding-bottom: 15px;
-    padding-top: 15px; */
-    /* align-items: center; */
+#logo {
+    height: 100px;
+    width: 180px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    align-items: flex-start;
 }
-#secondNavbar{
+
+#secondNavbar {
     border-top: solid 2px white;
 }
-#headerContainer{
-background-color: #212529;}
 
-h5{
+#headerContainer {
+    background-color: #212529;
+}
+
+h5 {
     margin-right: 5px;
 }
 
-#navbar{
+#navbar {
     position: sticky;
     top: 0px;
-    z-index: 1;
-    }
+    z-index: auto;
+}
