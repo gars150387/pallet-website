@@ -10,6 +10,8 @@ import { NavbarWebsite } from "../components/Navbar";
 import { Error404 } from "../view/Error404";
 import { Header } from "../components/Header";
 
+import '../style/navbar.css'
+
 
 export const RouteMain = () => {
 	return (
