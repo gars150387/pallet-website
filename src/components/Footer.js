@@ -32,8 +32,7 @@ export const Footer = () => (
 						</Col>
 					</Row>
 					<Col md={4}>
-						<br />
-						<Row style={{ height: "15px", color: "white" }}> <h5>CONNECT TO US</h5></Row>
+						<Row style={{ height: "15px", color: "white", position: 'absolute', top: '28px' }}> <h5>Follow us</h5></Row>
 						<Row xs={4} className="mt-3 align-justify">
 							<Col className="justify-content-center" style={{fontSize: "40px", marginRight: "-9px" }}>
 								<a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Pallet305"><FaFacebookF id='iconsFooter' style={{ fontSize: "31px" }} /></a>
