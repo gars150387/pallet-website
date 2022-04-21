@@ -3,8 +3,8 @@
   }
   .icon-position{
     position: fixed;
-    bottom: 90px;
-    right: 25px;
+    bottom: 25%;
+    right: 3%;
     z-index: 20;
   }
   .icon-style{

@@ -14,3 +14,9 @@ background-color: #212529;}
 h5{
     margin-right: 5px;
 }
+
+#navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    }

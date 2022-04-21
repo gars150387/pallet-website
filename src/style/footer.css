@@ -1,21 +1,22 @@
 .footer{
     background-color: #212529;
-    height: 250px;
+    height: 210px;
     
 }
 h5{
     color: #ffffff8c;
     text-decoration: none;
     margin-top: 10px;
-    /* padding-top: 15px; */
+    font-size: 20px;
 }
 a{
     text-decoration: none;
 }
 #iconsFooter{
     color: white;
-    height: 25px;
-    width: 25px;
+    font-size: 35px;
+    display: block;
+    cursor: pointer;
 }
 
 #iconsFooterPayment{
