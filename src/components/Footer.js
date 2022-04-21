@@ -35,13 +35,13 @@ export const Footer = () => (
 						<br />
 						<Row style={{ height: "15px", color: "white" }}> <h5>CONNECT TO US</h5></Row>
 						<Row xs={4} className="mt-3 align-justify">
-							<Col className="justify-content-center" style={{ marginRight: "3px", fontSize: "40px", marginRight: "-9px" }}>
+							<Col className="justify-content-center" style={{fontSize: "40px", marginRight: "-9px" }}>
 								<a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Pallet305"><FaFacebookF id='iconsFooter' style={{ fontSize: "31px" }} /></a>
 							</Col>
-							<Col className="justify-content-center" style={{ marginRight: "3px", fontSize: "40px", marginRight: "-1px" }}>
+							<Col className="justify-content-center" style={{fontSize: "40px", marginRight: "-1px" }}>
 								<a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pallet_305/"><FaInstagram id='iconsFooter' style={{ fontSize: "35px" }} /></a>
 							</Col>
-							<Col className="justify-content-center" style={{ marginRight: "3px", fontSize: "40px" }}>
+							<Col className="justify-content-center" style={{fontSize: "40px" }}>
 								<a target="_blank" rel="noopener noreferrer" href="https://wa.me/message/SXDE7GX6G4OUF1"><ImWhatsapp id='iconsFooter' style={{ fontSize: "32px" }} /></a>
 							</Col>
 						</Row>
