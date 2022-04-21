@@ -3,14 +3,21 @@ import { DesignTemplate } from '../components/DesignTemplate';
 import { DesignData } from '../components/DesignData';
 import { ScrollUp } from '../components/ScrollUp';
 
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button, ButtonGroup } from 'react-bootstrap';
 
 export const Design = () => {
 
     return (
         <div className='designComponent'>
-                  <ScrollUp/>
+            <ScrollUp />
             <Container>
+                <Row>
+                    <ButtonGroup size="lg" className="mb-2 mt-3" variant="dark">
+                        <Button variant="dark" style={{border: 'white solid 1px'}}>Furnitures</Button>
+                        <Button variant="dark" style={{border: 'white solid 1px'}}>Pargol</Button>
+                        <Button variant="dark" style={{border: 'white solid 1px'}}>Floor</Button>
+                    </ButtonGroup>
+                </Row>
                 <Row>
                     <Col md={{ span: 6, offset: 3 }} >
 
