@@ -63,4 +63,84 @@ export const DesignData = [
     id: '14',
     img: 'pergola/pergola (13).jpeg',
     type: 'pergola'
+},{
+    id: '15',
+    img: 'floor/floor (1).jpeg',
+    type: 'floor'
+},{
+    id: '16',
+    img: 'floor/floor (4).jpeg',
+    type: 'floor'
+},{
+    id: '17',
+    img: 'floor/floor (5).jpeg',
+    type: 'floor'
+},{
+    id: '18',
+    img: 'floor/floor (9).jpeg',
+    type: 'floor'
+},{
+    id: '19',
+    img: 'floor/floor (10).jpeg',
+    type: 'floor'
+},{
+    id: '20',
+    img: 'floor/floor (11).jpeg',
+    type: 'floor'
+},{
+    id: '21',
+    img: 'floor/floor (12).jpeg',
+    type: 'floor'
+},{
+    id: '22',
+    img: 'floor/floor (13).jpeg',
+    type: 'floor'
+},{
+    id: '23',
+    img: 'floor/floor (14).jpeg',
+    type: 'floor'
+},{
+    id: '24',
+    img: 'floor/floor (15).jpeg',
+    type: 'floor'
+},{
+    id: '25',
+    img: 'floor/floor (16).jpeg',
+    type: 'floor'
+},{
+    id: '26',
+    img: 'floor/floor (17).jpeg',
+    type: 'floor'
+},{
+    id: '27',
+    img: 'floor/floor (20).jpeg',
+    type: 'floor'
+},{
+    id: '28',
+    img: 'floor/floor (21).jpeg',
+    type: 'floor'
+},{
+    id: '29',
+    img: 'adornos/adornos (1).jpeg',
+    type: 'adornos'
+},{
+    id: '30',
+    img: 'adornos/adornos (1).jpg',
+    type: 'adornos'
+},{
+    id: '31',
+    img: 'adornos/adornos (2).jpeg',
+    type: 'adornos'
+},{
+    id: '32',
+    img: 'adornos/adornos (2).jpg',
+    type: 'adornos'
+},{
+    id: '33',
+    img: 'adornos/adornos (3).jpg',
+    type: 'adornos'
+},{
+    id: '34',
+    img: 'adornos/adornos (4).jpg',
+    type: 'adornos'
 }]
