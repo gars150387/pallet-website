@@ -5,9 +5,9 @@ import { ScrollUp } from '../components/ScrollUp';
 
 import '../style/about.css';
 
-import '../img/37d5499f-af1e-46ca-a14a-892a230d5aa0.jpg'
-import '../img/PHOTO-2022-03-24-15-34-37.jpg'
-import '../img/PHOTO-2022-03-24-15-34-13.jpg'
+import '../img/iran/iran/iran (1).jpg'
+import '../img/iran/magazine/magazine (6).jpg'
+import '../img/iran/magazine/magazine (5).jpg'
 
 export const About = () => {
     return (
@@ -35,18 +35,18 @@ export const About = () => {
                     </Link>
                 </Col>
                 <Col id='imgAbout'>
-                    <Card.Img variant="" src={require("../img/37d5499f-af1e-46ca-a14a-892a230d5aa0.jpg")} style={{ paddingTop: "22px" }} />
+                    <Card.Img variant="" src={require("../img/iran/iran/iran (1).jpg")} style={{ paddingTop: "22px" }} />
                 </Col>
             </Row>
             <hr />
             <Row>
                 <Col >
-                    <Card.Img id='magazine' src={require('../img/PHOTO-2022-03-24-15-34-37.jpg')} alt='PHOTO-2022-03-24-15-34-37' />
+                    <Card.Img id='magazine' src={require('../img/iran/magazine/magazine (6).jpg')} alt='../img/iran/magazine/magazine (6).jpg' />
                 </Col>
             </Row>
             <Row>
                 <Col>
-                    <Card.Img id='magazine' src={require("../img/PHOTO-2022-03-24-15-34-13.jpg")} alt='PHOTO-2022-03-24-15-34-13' />
+                    <Card.Img id='magazine' src={require("../img/iran/magazine/magazine (5).jpg")} alt='PHOTO-2022-03-24-15-34-13' />
                 </Col>
             </Row>
 
