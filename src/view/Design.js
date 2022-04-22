@@ -13,8 +13,9 @@ export const Design = () => {
             <Container>
                 <Row>
                     <ButtonGroup size="lg" className="mb-2 mt-3" variant="dark">
+                        <Button variant="light" style={{ border: 'white solid 1px' }}>All Projects</Button>
                         <Button variant="dark" style={{ border: 'white solid 1px' }}>Furnitures</Button>
-                        <Button variant="dark" style={{ border: 'white solid 1px' }}>Pargol</Button>
+                        <Button variant="dark" style={{ border: 'white solid 1px' }}>Pergola</Button>
                         <Button variant="dark" style={{ border: 'white solid 1px' }}>Floor</Button>
                     </ButtonGroup>
                 </Row>
