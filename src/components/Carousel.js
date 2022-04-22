@@ -4,10 +4,11 @@ import { Carousel, Row, Col, Container, Card } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/home.css';
 
-import '../img/WhatsApp Image 2022-04-20 at 11.14.45 AM (4).jpeg'
-import '../img/WhatsApp Image 2022-04-20 at 11.14.45 AM (5).jpeg'
-import '../img/WhatsApp Image 2022-04-20 at 11.16.52 AM (1).jpeg'
-import '../img/WhatsApp Image 2022-04-20 at 11.16.52 AM (3).jpeg'
+import '../img/furnitures/furnitures (4).jpeg'
+import '../img/furnitures/furnitures (5).jpeg'
+import '../img/furnitures/furnitures (6).jpeg'
+import '../img/furnitures/furnitures (7).jpeg'
+
 
 
 export const CarouselMain = () => {
@@ -17,20 +18,12 @@ export const CarouselMain = () => {
 				<Row>
 					<Col >
 						<Carousel fade>
-							<Carousel.Item>
-								<Row>
-									<Card.Img
-										className="d-block"
-										src={require("../img/WhatsApp Image 2022-04-20 at 11.14.45 AM (4).jpeg")}
-										alt="" />
-
-								</Row>
-							</Carousel.Item>
+							
 							<Carousel.Item>
 								<Row>
 									<Card.Img 
 										className="d-block"
-										src={require("../img/WhatsApp Image 2022-04-20 at 11.14.45 AM (5).jpeg")}
+										src={require("../img/furnitures/furnitures (4).jpeg")}
 										alt="" />
 								</Row>
 							</Carousel.Item>
@@ -38,15 +31,23 @@ export const CarouselMain = () => {
 								<Row>
 									<Card.Img 
 										className="d-block"
-										src={require("../img/WhatsApp Image 2022-04-20 at 11.16.52 AM (1).jpeg")}
+										src={require("../img/furnitures/furnitures (5).jpeg")}
 										alt="" />
 								</Row>
 							</Carousel.Item><Carousel.Item>
 								<Row>
 									<Card.Img 
 										className="d-block"
-										src={require("../img/WhatsApp Image 2022-04-20 at 11.16.52 AM (3).jpeg")}
+										src={require("../img/furnitures/furnitures (6).jpeg")}
 										alt="" />
+								</Row>
+							</Carousel.Item><Carousel.Item>
+								<Row>
+									<Card.Img
+										className="d-block"
+										src={require("../img/furnitures/furnitures (7).jpeg")}
+										alt="" />
+
 								</Row>
 							</Carousel.Item>
 						</Carousel>
