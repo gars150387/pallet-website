@@ -2,12 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Container, Nav } from 'react-bootstrap'
 
-import '../img/white-logo-transparent-background.png'
-
 import { FaFacebookF, FaInstagram } from 'react-icons/fa'
 import { ImWhatsapp } from 'react-icons/im';
 import { Row } from "react-bootstrap";
-import '../img/white-logo-transparent-background.png'
+import '../img/iran/logo/white-logo-transparent-background.png'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/navbar.css'
@@ -22,7 +20,7 @@ export const NavbarWebsite = () => {
                 <Container>
                     <Link to='./'>
                         <Row sm={1} variant="start" >
-                            <img src={require('../img/white-logo-transparent-background.png')}
+                            <img src={require('../img/iran/logo/white-logo-transparent-background.png')}
                                 alt='logo'
                                 id='logo'
                             />
