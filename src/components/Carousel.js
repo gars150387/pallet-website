@@ -6,8 +6,8 @@ import '../style/home.css';
 
 import '../img/furnitures/furnitures (12).jpeg'
 import '../img/furnitures/furnitures (26).jpeg'
-import '../img/furnitures/furnitures (6).jpeg'
 import '../img/furnitures/furnitures (4).jpeg'
+// import '../img/furnitures/furnitures (6).jpeg'
 
 
 
@@ -34,14 +34,16 @@ export const CarouselMain = () => {
 										src={require("../img/furnitures/furnitures (12).jpeg")}
 										alt="" />
 								</Row>
-							</Carousel.Item><Carousel.Item>
+							</Carousel.Item>
+							<Carousel.Item>
 								<Row>
 									<Card.Img 
 										className="d-block"
 										src={require("../img/furnitures/furnitures (26).jpeg")}
 										alt="" />
 								</Row>
-							</Carousel.Item><Carousel.Item>
+							</Carousel.Item>
+							{/* <Carousel.Item>
 								<Row>
 									<Card.Img
 										className="d-block"
@@ -49,7 +51,7 @@ export const CarouselMain = () => {
 										alt="" />
 
 								</Row>
-							</Carousel.Item>
+							</Carousel.Item> */}
 						</Carousel>
 					</Col>
 				</Row>
