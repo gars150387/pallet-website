@@ -15,7 +15,7 @@ export const ContactForm = () => {
                 console.log(result.text)
                 Swal.fire({title: 'Sent!',
                 text: 'Thank you for your message',
-                type: 'success',
+                icon: 'success',
             customClass:{
                 confirmButton: "btn btn-success"
             }})
@@ -23,7 +23,7 @@ export const ContactForm = () => {
                 throw (
                     Swal.fire({title: 'Oops..',
                     text: 'Something went wrong!',
-                    type: 'error',
+                    icon: 'error',
                 customClass: {
                     confirmButton: "btn btn-danger"
                 }})
