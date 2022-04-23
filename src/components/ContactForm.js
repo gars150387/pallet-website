@@ -2,19 +2,31 @@ import React from 'react';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 
+import '../index.css'
+
 
 export const ContactForm = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_tqq2iw2', 'template_l0cnn0y', e.target, 'user_7hiY7EgOGmmB04VGtCfcX')
+        emailjs.sendForm('service_6pkt6sa', 'template_1m1i12l', e.target, '-mMBXm7P-f0DthEpF')
             .then((result) => {
                 console.log(result.text)
-                Swal.fire('Sent!','Thank you', 'success')
+                Swal.fire({title: 'Sent!',
+                text: 'Thank you for your message',
+                type: 'success',
+            customClass:{
+                confirmButton: "btn btn-success"
+            }})
             }, (error) => {
                 throw (
-                    Swal.fire('Oops..', 'Something went wrong!', 'error')
+                    Swal.fire({title: 'Oops..',
+                    text: 'Something went wrong!',
+                    type: 'error',
+                customClass: {
+                    confirmButton: "btn btn-danger"
+                }})
                 )
             });
         e.target.reset()
