@@ -8,7 +8,7 @@ export const ContactForm = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_tqq2iw2', 'template_red0q5l', e.target, 'user_7hiY7EgOGmmB04VGtCfcX')
+        emailjs.sendForm('service_tqq2iw2', 'template_l0cnn0y', e.target, 'user_7hiY7EgOGmmB04VGtCfcX')
             .then((result) => {
                 console.log(result.text)
                 Swal.fire('Sent','', 'Success')
