@@ -25,3 +25,16 @@
 .animate__animated {
         z-index: 1;
   }
+
+  #button:hover{
+    background-color: darkgray;
+    blur: none;
+
+    transition: .3s ease;
+  }
+  
+#button:active{
+      color: #212529;
+      background-color: darkgray;
+
+  }
