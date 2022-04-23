@@ -1,5 +1,6 @@
 import React from 'react';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 
 export const ContactForm = () => {
@@ -7,11 +8,14 @@ export const ContactForm = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_6pkt6sa', 'template_1m1i12l', e.target, '-mMBXm7P-f0DthEpF')
+        emailjs.sendForm('service_tqq2iw2', 'template_red0q5l', e.target, 'user_7hiY7EgOGmmB04VGtCfcX')
             .then((result) => {
                 console.log(result.text)
+                Swal.fire('Sent','', 'Success')
             }, (error) => {
-                throw (error)
+                throw (
+                    Swal.fire('Oops..', 'Something went wrong!', 'error')
+                )
             });
         e.target.reset()
     };
