@@ -13,22 +13,10 @@ export const Design = () => {
 
     const [value, setvalue] = useState('pergola')
 
-    const handleClick = ({ setvalue }) => {
 
-        switch (value) {
-            case 'furnitures':
-                return value
-            case 'pergola':
-                return value
-            case 'floor':
-                return value
-            case 'adornos':
-                return value;
-            default:
-        }
+        const handleClick = ({ setvalue }) => {
+            setvalue()
     }
-
-
 
     const renderedChoice = DesignData.filter((item) => item.category === value)
 
@@ -39,11 +27,10 @@ export const Design = () => {
             <Container>
                 <Row>
                     <ButtonGroup onClick={handleClick} size="lg" className="mb-2 mt-3" variant="dark">
-                        {/* <Button onClick={() => setvalue('all')} variant="light" style={{ border: 'white solid 1px' }}>All</Button> */}
-                        <Button id='button' onClick={() => setvalue('furnitures')} variant="dark" style={{ border: 'white solid 1px' }}>Furnitures</Button>
                         <Button id='button' onClick={() => setvalue('pergola')} variant="dark" style={{ border: 'white solid 1px' }}>Pergola</Button>
                         <Button id='button' onClick={() => setvalue('floor')} variant="dark" style={{ border: 'white solid 1px' }}>Floor</Button>
-                        <Button id='button' onClick={() => setvalue('adornos')} variant="dark" style={{ border: 'white solid 1px' }}>Decoration</Button>
+                        <Button id='button' onClick={() => setvalue('furnitures')} variant="dark" style={{ border: 'white solid 1px' }}>Furnitures</Button>
+                                                <Button className='button' id='button' onClick={() => setvalue('adornos')} variant="dark" style={{ border: 'white solid 1px' }}>Decoration</Button>
                     </ButtonGroup>
                 </Row>
                 <ScrollUp />
