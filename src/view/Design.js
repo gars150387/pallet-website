@@ -6,6 +6,8 @@ import { DesignData } from '../components/DesignData';
 import { ScrollUp } from '../components/ScrollUp';
 
 
+import '../style/design.css'
+
 
 export const Design = () => {
 
@@ -38,10 +40,10 @@ export const Design = () => {
                 <Row>
                     <ButtonGroup onClick={handleClick} size="lg" className="mb-2 mt-3" variant="dark">
                         {/* <Button onClick={() => setvalue('all')} variant="light" style={{ border: 'white solid 1px' }}>All</Button> */}
-                        <Button onClick={() => setvalue('furnitures')} variant="dark" style={{ border: 'white solid 1px' }}>Furnitures</Button>
-                        <Button onClick={() => setvalue('pergola')} variant="dark" style={{ border: 'white solid 1px' }}>Pergola</Button>
-                        <Button onClick={() => setvalue('floor')} variant="dark" style={{ border: 'white solid 1px' }}>Floor</Button>
-                        <Button onClick={() => setvalue('adornos')} variant="dark" style={{ border: 'white solid 1px' }}>Decoration</Button>
+                        <Button id='button' onClick={() => setvalue('furnitures')} variant="dark" style={{ border: 'white solid 1px' }}>Furnitures</Button>
+                        <Button id='button' onClick={() => setvalue('pergola')} variant="dark" style={{ border: 'white solid 1px' }}>Pergola</Button>
+                        <Button id='button' onClick={() => setvalue('floor')} variant="dark" style={{ border: 'white solid 1px' }}>Floor</Button>
+                        <Button id='button' onClick={() => setvalue('adornos')} variant="dark" style={{ border: 'white solid 1px' }}>Decoration</Button>
                     </ButtonGroup>
                 </Row>
                 <ScrollUp />
