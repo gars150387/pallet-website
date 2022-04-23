@@ -21,8 +21,6 @@ export const Design = () => {
                 return value
             case 'adornos':
                 return value;
-                case 'all':
-                return value
             default:
         }
     }
