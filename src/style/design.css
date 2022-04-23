@@ -19,16 +19,33 @@
     align-items: center;
     border: solid 3px black;
     border-radius: 15px;
-    /* margin: 15px; */
+    box-shadow: 3px 3px 3px whitesmoke
     
 }
 .animate__animated {
-    -webkit-animation-duration: 55s;
-    animation-duration: 55s;
-    -webkit-animation-duration: var(--animate-duration);
-    animation-duration: var(--animate-duration);
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    -webkit-animation-iteration-count: calc(1);
-    animation-iteration-count: calc(1);
+        z-index: 1;
   }
+
+.mb-2{
+    padding: 0%;
+}
+
+.mb-2:target{
+    color: #212529;
+    background-color: white;
+    box-shadow: currentColor;
+
+}
+
+#button:hover{
+    background-color: darkgray;
+    filter: blur(0);
+
+    transition: .3s ease;
+  }
+    
+/* #button:target{
+      color: #212529;
+      background-color: darkgray;
+
+  } */

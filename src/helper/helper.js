@@ -1,7 +1,7 @@
+import { DesignData } from "../components/DesignData"
 
 
-const helper = () =>{
-    const handleChoice= () =>{
-        return 
-    }
-}
+    const renderedChoice = DesignData.filter((item) => {
+        item.category === value && console.log( item.id )
+    })
+    console.log('testing', renderedChoice)

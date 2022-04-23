@@ -2,8 +2,8 @@ body{
     background-color: gray;
 }
 .div-logo{
-    width: 150px;
-    height: 150px;
+    width: max-content;
+    height: max-content;
 }
 #logo{
     height: 200px;

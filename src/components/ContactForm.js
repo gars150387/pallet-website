@@ -1,5 +1,8 @@
 import React from 'react';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
+
+import '../index.css'
 
 
 export const ContactForm = () => {
@@ -10,8 +13,21 @@ export const ContactForm = () => {
         emailjs.sendForm('service_6pkt6sa', 'template_1m1i12l', e.target, '-mMBXm7P-f0DthEpF')
             .then((result) => {
                 console.log(result.text)
+                Swal.fire({title: 'Sent!',
+                text: 'Thank you for your message',
+                type: 'success',
+            customClass:{
+                confirmButton: "btn btn-success"
+            }})
             }, (error) => {
-                throw (error)
+                throw (
+                    Swal.fire({title: 'Oops..',
+                    text: 'Something went wrong!',
+                    type: 'error',
+                customClass: {
+                    confirmButton: "btn btn-danger"
+                }})
+                )
             });
         e.target.reset()
     };

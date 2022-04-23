@@ -8,14 +8,14 @@ import { Home } from "../view/Home";
 import { Footer } from "../components/Footer";
 import { NavbarWebsite } from "../components/Navbar";
 import { Error404 } from "../view/Error404";
-import { Header } from "../components/Header";
+
+import '../style/navbar.css'
 
 
 export const RouteMain = () => {
 	return (
-		<div>
+		<container fluid>
 			<BrowserRouter>
-			<Header/>
 					<NavbarWebsite />
 					<Routes>
 						<Route exact path="/" element={ <Home /> } />
@@ -26,6 +26,6 @@ export const RouteMain = () => {
 					</Routes>
 					<Footer />
 			</BrowserRouter>
-		</div>
+		</container>
 	);
 };

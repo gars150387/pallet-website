@@ -1,85 +1,274 @@
-import '../img/2B3A74AF-F7FF-41C5-B435-E3EB2FF30C85.jpg'
-import '../img/18A20FB2-818E-4B72-BE1E-BDECCC52134D.jpg'
-import '../img/58E5E329-E64F-4972-9392-A6CEAC17A913.jpg'
-import '../img/66B913C7-B3DC-4FE5-93CC-D4AD67EB9379.jpg'
-import '../img/29D529C0-9834-4926-A781-C6C881C0A2DE.jpg'
-import '../img/69AFD7B7-FA23-4A54-AB51-7234A6795F2E.jpg'
-import '../img/142B2076-642E-4451-8A54-F00F6822324A.jpg'
-import '../img/567F3275-1455-4384-ABCC-53263531A3E1.jpg'
-import '../img/85793fa7-72fb-492f-bc21-6a6def86bcf1.jpg'
-import '../img/2562834a-fd18-45d3-b519-9edc954a3acd.jpg'
-import '../img/61556755-B9B9-4DB0-8162-B38A736A693D.jpg'
-import '../img/A9927117-9F9A-44C2-9BEF-35876E24C7DF.jpg'
-import '../img/E2F7BDFE-FE72-48E0-B12F-441DEFEA0DC9.jpg'
-import '../img/f358a545-0748-4364-8c33-75d0764380f2.jpg'
-import '../img/FE859BF3-BE14-4E3F-A83C-5D4163248E01.jpg'
-import '../img/IMG_4199.jpg'
-import '../img/IMG_6388.jpg'
-import '../img/IMG_6389.jpg'
-import '../img/IMG_7267.jpg'
-import '../img/IMG_7808.jpg'
-import '../img/IMG_8029.jpg'
-import '../img/IMG_8424.jpg'
-import '../img/IMG_8585.jpg'
 
-export const DesignData = [{
-    img: '2B3A74AF-F7FF-41C5-B435-E3EB2FF30C85'
-}, {
-    img: '18A20FB2-818E-4B72-BE1E-BDECCC52134D'
-}, {
-    img: '29D529C0-9834-4926-A781-C6C881C0A2DE'
-}, {
-    
-    img: '58E5E329-E64F-4972-9392-A6CEAC17A913'
-}, {
-    
-    img: '66B913C7-B3DC-4FE5-93CC-D4AD67EB9379'
-}, {
-    
-    img: '69AFD7B7-FA23-4A54-AB51-7234A6795F2E'
-}, {
-    
-    img: '142B2076-642E-4451-8A54-F00F6822324A'
-}, {
-    
-    img: '567F3275-1455-4384-ABCC-53263531A3E1'
-}, {
-     
-    img: '2562834a-fd18-45d3-b519-9edc954a3acd'
-}, {
-     
-    img: '61556755-B9B9-4DB0-8162-B38A736A693D'
-}, {
-     
-    img: 'A9927117-9F9A-44C2-9BEF-35876E24C7DF'
-}, {
-     
-    img: 'E2F7BDFE-FE72-48E0-B12F-441DEFEA0DC9'
-}, {
-    
-    img: 'FE859BF3-BE14-4E3F-A83C-5D4163248E01'
-}, {
-     
-    img: 'IMG_4199'
-}, {
-     
-    img: 'IMG_6388'
-}, {
-     
-    img: 'IMG_6389'
-}, {
-     
-    img: 'IMG_7267'
-}, {
-     
-    img: 'IMG_7808'
-}, {
-     
-    img: 'IMG_8029'
-}, {
-     
-    img: 'IMG_8424'
-}, {
-     
-    img: 'IMG_8585'
+
+export const DesignData = [ 
+    {
+    'id': '01',
+    'img': 'pergola/pergola (1).jpeg',
+    'category': 'pergola'
+},
+{
+    'id': '02',
+    'img': 'pergola/pergola (1).jpg',
+    'category': 'pergola'
+},
+{
+    'id': '03',
+    'img': 'pergola/pergola (2).jpeg',
+    'category': 'pergola'
+},
+{
+    'id': '04',
+    'img': 'pergola/pergola (3).jpeg',
+    'category': 'pergola'
+},
+{
+    'id': '05',
+    'img': 'pergola/pergola (4).jpeg',
+    'category': 'pergola'
+},
+{
+    'id': '06',
+    'img': 'pergola/pergola (5).jpeg',
+    'category': 'pergola'
+},
+{
+    'id': '07',
+    'img': 'pergola/pergola (6).jpeg',
+    'category': 'pergola'
+},{
+    'id': '08',
+    'img': 'pergola/pergola (7).jpeg',
+    'category': 'pergola'
+},{
+    'id': '09',
+    'img': 'pergola/pergola (8).jpeg',
+    'category': 'pergola'
+},{
+    'id': '10',
+    'img': 'pergola/pergola (9).jpeg',
+    'category': 'pergola'
+},{
+    'id': '11',
+    'img': 'pergola/pergola (10).jpeg',
+    'category': 'pergola'
+},{
+    'id': '12',
+    'img': 'pergola/pergola (11).jpeg',
+    'category': 'pergola'
+},{
+    'id': '13',
+    'img': 'pergola/pergola (12).jpeg',
+    'category': 'pergola'
+},{
+    'id': '14',
+    'img': 'pergola/pergola (13).jpeg',
+    'category': 'pergola'
+},{
+    'id': '15',
+    'img': 'floor/floor (1).jpeg',
+    'category': 'floor'
+},{
+    'id': '16',
+    'img': 'floor/floor (4).jpeg',
+    'category': 'floor'
+},{
+    'id': '17',
+    'img': 'floor/floor (5).jpeg',
+    'category': 'floor'
+},{
+    'id': '18',
+    'img': 'floor/floor (9).jpeg',
+    'category': 'floor'
+},{
+    'id': '19',
+    'img': 'floor/floor (10).jpeg',
+    'category': 'floor'
+},{
+    'id': '20',
+    'img': 'floor/floor (11).jpeg',
+    'category': 'floor'
+},{
+    'id': '21',
+    'img': 'floor/floor (12).jpeg',
+    'category': 'floor'
+},{
+    'id': '22',
+    'img': 'floor/floor (13).jpeg',
+    'category': 'floor'
+},{
+    'id': '23',
+    'img': 'floor/floor (14).jpeg',
+    'category': 'floor'
+},{
+    'id': '24',
+    'img': 'floor/floor (15).jpeg',
+    'category': 'floor'
+},{
+    'id': '25',
+    'img': 'floor/floor (16).jpeg',
+    'category': 'floor'
+},{
+    'id': '26',
+    'img': 'floor/floor (17).jpeg',
+    'category': 'floor'
+},{
+    'id': '27',
+    'img': 'floor/floor (20).jpeg',
+    'category': 'floor'
+},{
+    'id': '28',
+    'img': 'floor/floor (21).jpeg',
+    'category': 'floor'
+},{
+    'id': '35',
+    'img': 'furnitures/furnitures (1).jpg',
+    'category': 'furnitures'
+},{
+    'id': '36',
+    'img': 'furnitures/furnitures (2).jpg',
+    'category': 'furnitures'
+},{
+    'id': '37',
+    'img': 'furnitures/furnitures (3).jpg',
+    'category': 'furnitures'
+},{
+    'id': '38',
+    'img': 'furnitures/furnitures (4).jpg',
+    'category': 'furnitures'
+},{
+    'id': '41',
+    'img': 'furnitures/furnitures (7).jpg',
+    'category': 'furnitures'
+},{
+    'id': '42',
+    'img': 'furnitures/furnitures (8).jpg',
+    'category': 'furnitures'
+},{
+    'id': '43',
+    'img': 'furnitures/furnitures (9).jpg',
+    'category': 'furnitures'
+},{
+    'id': '44',
+    'img': 'furnitures/furnitures (1).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '45',
+    'img': 'furnitures/furnitures (2).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '46',
+    'img': 'furnitures/furnitures (3).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '47',
+    'img': 'furnitures/furnitures (4).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '48',
+    'img': 'furnitures/furnitures (5).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '49',
+    'img': 'furnitures/furnitures (6).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '50',
+    'img': 'furnitures/furnitures (7).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '51',
+    'img': 'furnitures/furnitures (8).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '52',
+    'img': 'furnitures/furnitures (9).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '53',
+    'img': 'furnitures/furnitures (10).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '54',
+    'img': 'furnitures/furnitures (11).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '55',
+    'img': 'furnitures/furnitures (12).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '56',
+    'img': 'furnitures/furnitures (13).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '57',
+    'img': 'furnitures/furnitures (14).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '58',
+    'img': 'furnitures/furnitures (15).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '59',
+    'img': 'furnitures/furnitures (16).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '60',
+    'img': 'furnitures/furnitures (17).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '61',
+    'img': 'furnitures/furnitures (18).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '62',
+    'img': 'furnitures/furnitures (19).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '63',
+    'img': 'furnitures/furnitures (20).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '64',
+    'img': 'furnitures/furnitures (21).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '65',
+    'img': 'furnitures/furnitures (22).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '66',
+    'img': 'furnitures/furnitures (23).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '68',
+    'img': 'furnitures/furnitures (25).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '69',
+    'img': 'furnitures/furnitures (26).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '29',
+    'img': 'adornos/adornos (1).jpeg',
+    'category': 'adornos'
+},{
+    'id': '30',
+    'img': 'adornos/adornos (1).jpg',
+    'category': 'adornos'
+},{
+    'id': '31',
+    'img': 'adornos/adornos (2).jpeg',
+    'category': 'adornos'
+},{
+    'id': '32',
+    'img': 'adornos/adornos (2).jpg',
+    'category': 'adornos'
+},{
+    'id': '33',
+    'img': 'adornos/adornos (3).jpg',
+    'category': 'adornos'
+},{
+    'id': '34',
+    'img': 'adornos/adornos (4).jpg',
+    'category': 'adornos'
 }]

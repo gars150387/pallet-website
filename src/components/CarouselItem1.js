@@ -1,5 +1,5 @@
 import React from "react";
-import { Carousel, Row, Col, Container } from "react-bootstrap";
+import { Carousel, Row, Col, Container, Card } from "react-bootstrap";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -16,7 +16,7 @@ export const CarouselItem1 = () => {
 						<Carousel fade>
 							<Carousel.Item id="carouselItem">
 								<Row>
-									<img
+									<Card.Img
 										className="d-block"
 										src={require("../img/E2F7BDFE-FE72-48E0-B12F-441DEFEA0DC9.jpg")}
 										alt="" />
@@ -24,7 +24,7 @@ export const CarouselItem1 = () => {
 							</Carousel.Item>
 							<Carousel.Item>
 								<Row>
-									<img
+									<Card.Img 
 										className="d-block"
 										src={require("../img/IMG_7808.jpg")}
 										alt="" />
@@ -32,7 +32,7 @@ export const CarouselItem1 = () => {
 							</Carousel.Item>
 							<Carousel.Item>
 								<Row>
-									<img
+									<Card.Img 
 										className="d-block"
 										src={require("../img/61556755-B9B9-4DB0-8162-B38A736A693D.jpg")}
 										alt="" />
