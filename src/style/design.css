@@ -19,11 +19,25 @@
     align-items: center;
     border: solid 3px black;
     border-radius: 15px;
+    box-shadow: 3px 3px 3px whitesmoke
     
 }
 .animate__animated {
         z-index: 1;
   }
+
+.mb-2{
+    position: fixed;
+    left: 0%;
+    top: 0%;
+}
+
+.mb-2:target{
+    color: #212529;
+    background-color: white;
+    box-shadow: currentColor;
+
+}
 
 #button:hover{
     background-color: darkgray;
@@ -32,8 +46,8 @@
     transition: .3s ease;
   }
     
-#button:target{
+/* #button:target{
       color: #212529;
       background-color: darkgray;
 
-  }
+  } */
