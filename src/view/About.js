@@ -29,7 +29,7 @@ export const About = () => {
                     </h4>
                     <br />
                     <Link to="/design">
-                        <h4 className='animate__animated animate__pulse'>
+                        <h4 className='animate__animated animate__pulse animate__infinite animate__slower'>
                             ... view our work here
                         </h4>
                     </Link>
