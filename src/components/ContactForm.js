@@ -21,7 +21,6 @@ export const ContactForm = () => {
                     confirmButtonColor: 'green'
                 })
             }, (error) => {
-                throw (error) => {
                     Swal.fire({
                         title: 'Oopss!',
                         text: 'Something went wrong..',
@@ -31,7 +30,6 @@ export const ContactForm = () => {
                         cancelButtonColor: 'red'
                     })
 
-                }
             });
         e.target.reset()
     };
