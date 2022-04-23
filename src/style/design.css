@@ -28,11 +28,11 @@
 
   #button:hover{
     background-color: darkgray;
-    blur: none;
+    filter: blur(0);
 
     transition: .3s ease;
   }
-  
+    
 #button:active{
       color: #212529;
       background-color: darkgray;
