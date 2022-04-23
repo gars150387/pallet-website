@@ -1,6 +1,6 @@
 #logo {
-    height: 100px;
-    width: 180px;
+    height: 140px;
+    width: 220px;
     padding-bottom: 15px;
     padding-top: 15px;
     align-items: flex-start;
@@ -8,10 +8,6 @@
 
 #secondNavbar {
     border-top: solid 2px white;
-}
-
-#headerContainer {
-    background-color: #212529;
 }
 
 h5 {
