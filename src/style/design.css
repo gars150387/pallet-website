@@ -27,9 +27,7 @@
   }
 
 .mb-2{
-    position: fixed;
-    left: 0%;
-    top: 0%;
+    padding: 0%;
 }
 
 .mb-2:target{
