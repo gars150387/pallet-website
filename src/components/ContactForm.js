@@ -13,10 +13,24 @@ export const ContactForm = () => {
         emailjs.sendForm('service_6pkt6sa', 'template_1m1i12l', e.target, '-mMBXm7P-f0DthEpF')
             .then((result) => {
                 console.log(result.text)
-                Swal.fire('Sent!','Thank you for your message','success', "btn btn-success")
+                Swal.fire({
+                    title: 'Email Sent!',
+                    text: 'Your email was sent',
+                    icon: 'success',
+                    allowOutsideClick: false,
+                    allowEscapeKey: true,
+                    confirmButtonColor: 'green'
+                })
             }, (error) => {
                 throw (
-                    Swal.fire('Oops..','Something went wrong!','error',"btn btn-danger")
+                    Swal.fire({
+                        title: 'Oopss!',
+                        text: 'Something went wrong..',
+                        icon: 'error',
+                        allowOutsideClick: false,
+                        allowEscapeKey: true,
+                        cancelButtonColor: 'red'
+                    })
                 )
             });
         e.target.reset()
