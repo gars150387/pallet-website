@@ -136,14 +136,6 @@ export const DesignData = [
     'img': 'furnitures/furnitures (4).jpg',
     'category': 'furnitures'
 },{
-    'id': '39',
-    'img': 'furnitures/furnitures (5).jpg',
-    'category': 'furnitures'
-},{
-    'id': '40',
-    'img': 'furnitures/furnitures (6).jpg',
-    'category': 'furnitures'
-},{
     'id': '41',
     'img': 'furnitures/furnitures (7).jpg',
     'category': 'furnitures'
