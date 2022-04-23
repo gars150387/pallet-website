@@ -30,7 +30,7 @@ export const Design = () => {
                         <Button id='button' onClick={() => setvalue('pergola')} variant="dark" style={{ border: 'white solid 1px' }}>Pergola</Button>
                         <Button id='button' onClick={() => setvalue('floor')} variant="dark" style={{ border: 'white solid 1px' }}>Floor</Button>
                         <Button id='button' onClick={() => setvalue('furnitures')} variant="dark" style={{ border: 'white solid 1px' }}>Furnitures</Button>
-                                                <Button className='button' id='button' onClick={() => setvalue('adornos')} variant="dark" style={{ border: 'white solid 1px' }}>Decoration</Button>
+                        <Button id='button' onClick={() => setvalue('adornos')} variant="dark" style={{ border: 'white solid 1px' }}>Decoration</Button>
                     </ButtonGroup>
                 </Row>
                 <ScrollUp />
