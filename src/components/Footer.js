@@ -11,7 +11,7 @@ import '../style/footer.css'
 
 export const Footer = () => (
 	<div className="footer">
-		<Container className="mt-2">
+		<Container className="mt-2" fluid>
 			<Navbar bg="dark" variant="dark">
 				<Container>
 					<Row>
@@ -49,7 +49,7 @@ export const Footer = () => (
 				</Container>
 			</Navbar>
 		</Container>
-		<Container>
+		<Container fluid>
 		<Container>
 					<Nav className="justify-content-center" collapseOnSelect expand="lg" bg="dark" variant="dark">
 						<Container className="justify-content-center">

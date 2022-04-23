@@ -16,7 +16,7 @@ export const NavbarWebsite = () => {
 
     return (
         <div id="navbar" className="mb-2">
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top" fluid>
                 <Container>
                     <Link to='./'>
                         <Row sm={1} variant="start" >
