@@ -1,11 +1,10 @@
 import React from "react";
 import { Carousel, Row, Col, Container, Card } from "react-bootstrap";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { VideoWorkResult } from "../components/Video";
+import { VideoWorkResul2 } from "./VideoPool";
 
-import '../img/E2F7BDFE-FE72-48E0-B12F-441DEFEA0DC9.jpg'
-import '../img/IMG_7808.jpg'
-import '../img/61556755-B9B9-4DB0-8162-B38A736A693D.jpg'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const CarouselItem1 = () => {
 	return (
@@ -16,29 +15,14 @@ export const CarouselItem1 = () => {
 						<Carousel fade>
 							<Carousel.Item id="carouselItem">
 								<Row>
-									<Card.Img
-										className="d-block"
-										src={require("../img/E2F7BDFE-FE72-48E0-B12F-441DEFEA0DC9.jpg")}
-										alt="" />
+									<VideoWorkResult />
 								</Row>
 							</Carousel.Item>
 							<Carousel.Item>
 								<Row>
-									<Card.Img 
-										className="d-block"
-										src={require("../img/IMG_7808.jpg")}
-										alt="" />
 								</Row>
 							</Carousel.Item>
-							<Carousel.Item>
-								<Row>
-									<Card.Img 
-										className="d-block"
-										src={require("../img/61556755-B9B9-4DB0-8162-B38A736A693D.jpg")}
-										alt="" />
-
-								</Row>
-							</Carousel.Item>
+							<VideoWorkResul2 />
 						</Carousel>
 					</Col>
 				</Row>
