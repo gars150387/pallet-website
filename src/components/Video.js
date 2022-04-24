@@ -1,18 +1,14 @@
 import React from 'react';
-import { Ratio } from 'react-bootstrap';
+import video from '../Video/video.mp4'
 
-export default props => {
+export const VideoWorkResult = ()=> {
     return (
-        <Ratio aspectRatio={ 50 }>
-            <video
-                playsInline
-                controls
-                // poster="/assets/poster.png"
-                src={require('../Video/video.mp4').default}
+            <video className='videoHomePage'
+                src={ video }
+                autoPlay
+                loop 
+                muted
             />
-        </Ratio>
-
     );
 };
 
-//src\Video\WhatsApp Video 2022-04-20 at 11.14.50 AM.mp4
