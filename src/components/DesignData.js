@@ -168,10 +168,6 @@ export const DesignData = [
     'img': 'furnitures/furnitures (9).jpeg',
     'category': 'furnitures'
 },{
-    'id': '48',
-    'img': 'furnitures/furnitures (5).jpg',
-    'category': 'furnitures'
-},{
     'id': '49',
     'img': 'furnitures/furnitures (6).jpeg',
     'category': 'furnitures'
