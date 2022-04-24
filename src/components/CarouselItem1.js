@@ -1,5 +1,5 @@
 import React from "react";
-import { Carousel, Row, Col, Container, Card } from "react-bootstrap";
+import { Carousel, Row, Col, Container } from "react-bootstrap";
 
 import { VideoWorkResult } from "../components/Video";
 import { VideoWorkResul2 } from "./VideoPool";
@@ -23,7 +23,6 @@ export const CarouselItem1 = () => {
 									<VideoWorkResul2 />
 								</Row>
 							</Carousel.Item>
-
 						</Carousel>
 					</Col>
 				</Row>
