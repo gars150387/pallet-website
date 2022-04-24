@@ -120,100 +120,32 @@ export const DesignData = [
     'img': 'floor/floor (21).jpeg',
     'category': 'floor'
 },{
-    'id': '35',
-    'img': 'furnitures/furnitures (1).jpg',
-    'category': 'furnitures'
-},{
-    'id': '36',
-    'img': 'furnitures/furnitures (2).jpg',
-    'category': 'furnitures'
-},{
-    'id': '37',
-    'img': 'furnitures/furnitures (3).jpg',
-    'category': 'furnitures'
-},{
-    'id': '38',
-    'img': 'furnitures/furnitures (4).jpg',
-    'category': 'furnitures'
-},{
-    'id': '41',
-    'img': 'furnitures/furnitures (7).jpg',
-    'category': 'furnitures'
-},{
-    'id': '42',
-    'img': 'furnitures/furnitures (8).jpg',
-    'category': 'furnitures'
-},{
-    'id': '43',
-    'img': 'furnitures/furnitures (9).jpg',
-    'category': 'furnitures'
-},{
-    'id': '44',
-    'img': 'furnitures/furnitures (1).jpeg',
-    'category': 'furnitures'
-},{
-    'id': '45',
-    'img': 'furnitures/furnitures (2).jpeg',
-    'category': 'furnitures'
-},{
-    'id': '46',
-    'img': 'furnitures/furnitures (3).jpeg',
+    'id': '51',
+    'img': 'furnitures/furnitures (8).jpeg',
     'category': 'furnitures'
 },{
     'id': '47',
     'img': 'furnitures/furnitures (4).jpeg',
     'category': 'furnitures'
 },{
-    'id': '48',
-    'img': 'furnitures/furnitures (5).jpeg',
-    'category': 'furnitures'
-},{
-    'id': '49',
-    'img': 'furnitures/furnitures (6).jpeg',
-    'category': 'furnitures'
-},{
-    'id': '50',
-    'img': 'furnitures/furnitures (7).jpeg',
-    'category': 'furnitures'
-},{
-    'id': '51',
-    'img': 'furnitures/furnitures (8).jpeg',
-    'category': 'furnitures'
-},{
-    'id': '52',
-    'img': 'furnitures/furnitures (9).jpeg',
-    'category': 'furnitures'
-},{
-    'id': '53',
-    'img': 'furnitures/furnitures (10).jpeg',
-    'category': 'furnitures'
-},{
-    'id': '54',
-    'img': 'furnitures/furnitures (11).jpeg',
+    'id': '69',
+    'img': 'furnitures/furnitures (26).jpeg',
     'category': 'furnitures'
 },{
     'id': '55',
     'img': 'furnitures/furnitures (12).jpeg',
     'category': 'furnitures'
 },{
-    'id': '56',
-    'img': 'furnitures/furnitures (13).jpeg',
+    'id': '46',
+    'img': 'furnitures/furnitures (3).jpeg',
     'category': 'furnitures'
 },{
-    'id': '57',
-    'img': 'furnitures/furnitures (14).jpeg',
+    'id': '44',
+    'img': 'furnitures/furnitures (1).jpeg',
     'category': 'furnitures'
 },{
-    'id': '58',
-    'img': 'furnitures/furnitures (15).jpeg',
-    'category': 'furnitures'
-},{
-    'id': '59',
-    'img': 'furnitures/furnitures (16).jpeg',
-    'category': 'furnitures'
-},{
-    'id': '60',
-    'img': 'furnitures/furnitures (17).jpeg',
+    'id': '35',
+    'img': 'furnitures/furnitures (1).jpg',
     'category': 'furnitures'
 },{
     'id': '61',
@@ -228,6 +160,74 @@ export const DesignData = [
     'img': 'furnitures/furnitures (20).jpeg',
     'category': 'furnitures'
 },{
+    'id': '36',
+    'img': 'furnitures/furnitures (2).jpg',
+    'category': 'furnitures'
+},{
+    'id': '52',
+    'img': 'furnitures/furnitures (9).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '48',
+    'img': 'furnitures/furnitures (5).jpg',
+    'category': 'furnitures'
+},{
+    'id': '49',
+    'img': 'furnitures/furnitures (6).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '68',
+    'img': 'furnitures/furnitures (25).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '43',
+    'img': 'furnitures/furnitures (9).jpg',
+    'category': 'furnitures'
+},{
+    'id': '37',
+    'img': 'furnitures/furnitures (3).jpg',
+    'category': 'furnitures'
+},{
+    'id': '42',
+    'img': 'furnitures/furnitures (8).jpg',
+    'category': 'furnitures'
+},{
+    'id': '38',
+    'img': 'furnitures/furnitures (4).jpg',
+    'category': 'furnitures'
+},{
+    'id': '56',
+    'img': 'furnitures/furnitures (13).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '41',
+    'img': 'furnitures/furnitures (7).jpg',
+    'category': 'furnitures'
+},{
+    'id': '45',
+    'img': 'furnitures/furnitures (2).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '50',
+    'img': 'furnitures/furnitures (7).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '57',
+    'img': 'furnitures/furnitures (14).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '59',
+    'img': 'furnitures/furnitures (16).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '66',
+    'img': 'furnitures/furnitures (23).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '60',
+    'img': 'furnitures/furnitures (17).jpeg',
+    'category': 'furnitures'
+},{
     'id': '64',
     'img': 'furnitures/furnitures (21).jpeg',
     'category': 'furnitures'
@@ -236,16 +236,8 @@ export const DesignData = [
     'img': 'furnitures/furnitures (22).jpeg',
     'category': 'furnitures'
 },{
-    'id': '66',
-    'img': 'furnitures/furnitures (23).jpeg',
-    'category': 'furnitures'
-},{
-    'id': '68',
-    'img': 'furnitures/furnitures (25).jpeg',
-    'category': 'furnitures'
-},{
-    'id': '69',
-    'img': 'furnitures/furnitures (26).jpeg',
+    'id': '54',
+    'img': 'furnitures/furnitures (11).jpeg',
     'category': 'furnitures'
 },{
     'id': '29',
@@ -271,4 +263,44 @@ export const DesignData = [
     'id': '34',
     'img': 'adornos/adornos (4).jpg',
     'category': 'adornos'
+},{
+    'id': '35',
+    'img': 'floor/floor (2).jpeg',
+    'category': 'floor'
+},{
+    'id': '36',
+    'img': 'floor/floor (2).jpeg',
+    'category': 'floor'
+},{
+    'id': '37',
+    'img': 'floor/floor (6).jpeg',
+    'category': 'floor'
+},{
+    'id': '37',
+    'img': 'pergola/pergola (14).jpeg',
+    'category': 'pergola'
+},{
+    'id': '38',
+    'img': 'pergola/pergola (15).jpeg',
+    'category': 'pergola'
+},{
+    'id': '39',
+    'img': 'pergola/pergola (16).jpeg',
+    'category': 'pergola'
+},{
+    'id': '40',
+    'img': 'pergola/pergola (17).jpeg',
+    'category': 'pergola'
+},{
+    'id': '41',
+    'img': 'pergola/pergola (18).jpeg',
+    'category': 'pergola'
+},{
+    'id': '42',
+    'img': 'pergola/pergola (19).jpeg',
+    'category': 'pergola'
+},{
+    'id': '43',
+    'img': 'pergola/pergola (20).jpeg',
+    'category': 'pergola'
 }]
