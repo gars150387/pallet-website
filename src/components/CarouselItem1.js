@@ -20,9 +20,10 @@ export const CarouselItem1 = () => {
 							</Carousel.Item>
 							<Carousel.Item>
 								<Row>
+									<VideoWorkResul2 />
 								</Row>
 							</Carousel.Item>
-							<VideoWorkResul2 />
+
 						</Carousel>
 					</Col>
 				</Row>
