@@ -10,11 +10,23 @@ export const ContactForm = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_6pkt6sa', 'template_1m1i12l', e.target, '-mMBXm7P-f0DthEpF')
+        emailjs.sendForm('service_tqq2iw2', 'template_l0cnn0y', e.target, 'user_7hiY7EgOGmmB04VGtCfcX')
             .then((result) => {
-                Swal.fire('Message Sent!', 'Thank you for your messahe', 'success')
+                Swal.fire({
+                    title: 'Message sent!',
+                    text: 'Thank you for your message',
+                    icon: 'success',
+                    allowOutsideClick: false,
+                    confirmButtonColor: '#006400'
+
+                })
             }, (error) => {
-                Swal.fire('Oopss...', 'Something went wrong', 'error')
+                Swal.fire({
+                    title: 'Oopss...',
+                    text: 'Something went wrong',
+                    icon: 'error',
+                    cancelButtonColor: '#8b0000'
+                })
             });
         e.target.reset()
     };
