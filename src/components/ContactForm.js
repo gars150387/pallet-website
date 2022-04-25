@@ -14,7 +14,7 @@ export const ContactForm = () => {
             .then((result) => {
                 Swal.fire('Message Sent!', 'Thank you for your messahe', 'success')
             }, (error) => {
-                Swal.fire('Oopss...', 'Something went wrong', error)
+                Swal.fire('Oopss...', 'Something went wrong', 'error')
             });
         e.target.reset()
     };
