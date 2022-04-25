@@ -16,14 +16,14 @@ export const ContactForm = () => {
                     title: 'Email Sent!',
                     text: 'Your email was sent',
                     icon: 'success',
-                    confirmButtonColor: 'green'
+                    confirmButtonColor: '#006400'
                 })
             }, (error) => {
                     Swal.fire({
                         title: 'Oopss!',
                         text: 'Something went wrong..',
                         icon: 'error',
-                        cancelButtonColor: 'red'
+                        cancelButtonColor: '#8b0000'
                     })
 
             });
