@@ -16,8 +16,6 @@ export const ContactForm = () => {
                     title: 'Email Sent!',
                     text: 'Your email was sent',
                     icon: 'success',
-                    allowOutsideClick: false,
-                    allowEscapeKey: true,
                     confirmButtonColor: 'green'
                 })
             }, (error) => {
@@ -25,8 +23,6 @@ export const ContactForm = () => {
                         title: 'Oopss!',
                         text: 'Something went wrong..',
                         icon: 'error',
-                        allowOutsideClick: false,
-                        allowEscapeKey: true,
                         cancelButtonColor: 'red'
                     })
 
