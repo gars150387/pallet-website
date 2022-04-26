@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { FaFacebookF, FaInstagram } from 'react-icons/fa'
 import { ImWhatsapp } from 'react-icons/im'
 import { CgCopyright } from 'react-icons/cg'
+import { SiTiktok } from 'react-icons/si'
 import { Navbar, Nav, Container, Row, Col } from "react-bootstrap";
 
 
@@ -39,6 +40,9 @@ export const Footer = () => (
 							</Col>
 							<Col className="justify-content-center" style={{ fontSize: "50px", marginRight: "-3px" }}>
 								<a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pallet_305/"><FaInstagram id='iconsFooter' style={{ fontSize: "35px" }} /></a>
+							</Col>
+							<Col className="justify-content-center" style={{ fontSize: "60px" }}>
+								<a target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@pallet305?lang=en"><SiTiktok id='iconsFooter' style={{ fontSize: "37px" }} /></a>
 							</Col>
 							<Col className="justify-content-center" style={{ fontSize: "60px" }}>
 								<a target="_blank" rel="noopener noreferrer" href="https://wa.me/message/SXDE7GX6G4OUF1"><ImWhatsapp id='iconsFooter' style={{ fontSize: "37px" }} /></a>
