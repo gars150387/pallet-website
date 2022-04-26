@@ -10,7 +10,7 @@ export const ContactForm = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_6pkt6sa', 'template_1m1i12l', e.target, '-mMBXm7P-f0DthEpF')
+        emailjs.sendForm('service_vuhf9h8', 'template_hch7o5o', e.target, 'miCVXroIcLDMQFyvZ')
             .then((result) => {
                 Swal.fire({
                     title: 'Message sent!',
