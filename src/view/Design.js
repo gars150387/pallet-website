@@ -37,7 +37,8 @@ export const Design = () => {
                 </Row>
                 <ScrollUp />
                 <Row>
-                    <Col md={{ span: 6, offset: 3 }} >
+                    <Col sm={3}></Col>
+                    <Col style={{paddingRight: '5%'}} sm={6}>
                         {
                             renderedChoice.map((item) => {
 
@@ -49,6 +50,7 @@ export const Design = () => {
                             })
                         }
                     </Col>
+                    <col sm={3}></col>
                 </Row>
             </Container>
 
