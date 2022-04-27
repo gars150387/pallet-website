@@ -1,7 +1,8 @@
-img {
-    width: 7600px;
-    height: 550px;
+img{
+    width: 100vw;
+    height: 85vh;
 }
+
 
 
 .imgDiv {
@@ -9,26 +10,28 @@ img {
     margin: 0px;
 }
 
-#carouselItem{
+#carouselItem {
     color: transparent;
 }
-.container-fluid{
+
+.container-fluid {
     padding: 0px;
-    
+
 }
-#container-fluid{
+
+#container-fluid {
     background-image: url('https://i.pinimg.com/originals/db/76/76/db7676a114b1da549b48477d9750b2b9.jpg');
     background-size: contain;
     background-repeat: repeat-y;
     background-repeat: repeat-x;
 }
 
-.carousel-control-next{
-    z-index: 3;  
+.carousel-control-next {
+    z-index: 3;
     color: transparent;
 }
 
-.carousel-control-prev{
+.carousel-control-prev {
     z-index: 3;
     color: transparent;
 }
@@ -36,4 +39,12 @@ img {
 /* .carousel-indicators{
     z-index: 2;
     color: white;
+} */
+
+/* .videoHomePage{
+    width: 100vw;
+    height: 78vh;
+    margin-top: 2px;
+    padding-left: 40px;
+
 } */
