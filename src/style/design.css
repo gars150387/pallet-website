@@ -36,9 +36,7 @@
     box-shadow: currentColor;
 
 }
-#button{
-    /* margin-right: 6px; */
-}
+
 #button:hover{
     background-color: darkgray;
     filter: blur(0);
