@@ -1,7 +1,6 @@
 import React from "react";
 import { ContactForm } from "../components/ContactForm";
-import { Container, Row, Col, Card } from "react-bootstrap";
-import { ContactCard } from "../components/ContactCard";
+import { Container, Row, Col } from "react-bootstrap";
 
 
 import '../style/contact.css'
