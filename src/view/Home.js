@@ -21,9 +21,9 @@ export const Home = () => {
 					<Col className="text-center">
 						<h3 style={{color: 'white', fontSize: '25px', fontWeight: '500', fontFamily: 'fantasy'}}>These are a few comments from our customers</h3>
 					</Col>
-					<Col>
+					{/* <Col>
 						<CarouselReviews/>
-					</Col>
+					</Col> */}
 					
 				</Col>
 			</Row>
