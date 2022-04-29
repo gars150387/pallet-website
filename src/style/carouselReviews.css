@@ -1,0 +1,10 @@
+#container-fluid {
+    background-image: url('https://i.pinimg.com/originals/db/76/76/db7676a114b1da549b48477d9750b2b9.jpg');
+    background-size: contain;
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+}
+
+.reviews{
+    padding-bottom: 2%;
+}
