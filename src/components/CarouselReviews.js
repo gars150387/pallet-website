@@ -6,7 +6,6 @@ import { ReviewFormat2 } from './ReviewFormat2'
 import { ReviewFormat3 } from './ReviewFormat3'
 
 import '../style/carouselReviews.css'
-import { Route } from 'react-router'
 
 export const CarouselReviews = () => {
     return (
