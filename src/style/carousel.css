@@ -1,0 +1,10 @@
+@media only screen and (max-width: 600px){
+    .card-img{
+        height: 45vh;
+        width: 100vw;
+        margin: auto;
+        margin-top: 15%;
+        margin-bottom: 7%;
+    }
+
+}
