@@ -43,7 +43,7 @@ export const NavbarWebsite = () => {
                                 <Nav.Link href="./contact">Contact Us</Nav.Link>
                             </Link>
                             <Link to="./customer">
-                                <Nav.Link href="./contact">Our Customers</Nav.Link>
+                                <Nav.Link href="./customer">Our Customers</Nav.Link>
                             </Link>
                         </Nav>
                         <Nav>
