@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 import { CarouselMain } from '../components/Carousel'
 // import { ReviewFormat } from "../components/ReviewFormat";
-import { CarouselReviews } from "../components/CarouselReviews";
+// import { CarouselReviews } from "../components/CarouselReviews";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/home.css';
