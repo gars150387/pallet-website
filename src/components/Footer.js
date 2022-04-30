@@ -17,7 +17,7 @@ export const Footer = () => (
 				<Container>
 					<Row>
 						<Row style={{ height: "10px" }}></Row>
-						<Col md={6}>
+						<Col md={7}>
 							<Link to="./">
 								<h5>Home</h5>
 							</Link>
@@ -26,6 +26,11 @@ export const Footer = () => (
 							</Link>
 							<Link to="./design">
 								<h5>Projects</h5>
+							</Link>
+						</Col>
+						<Col>
+							<Link to="./customer">
+								<h5>Our Customers</h5>
 							</Link>
 							<Link to="./contact">
 								<h5>Contact</h5>
@@ -54,16 +59,16 @@ export const Footer = () => (
 			</Navbar>
 		</Container>
 		<Container fluid>
-		<Container>
-					<Nav className="justify-content-center" collapseOnSelect expand="lg" bg="dark" variant="dark">
-						<Container className="justify-content-center">
-							<Navbar.Text className="align-item-center">
-								<Col  md={{ span: 6, offset: 3 }} ><p><CgCopyright style={{fontSize: "20px"}} /> 2022 Pallet305. All rights reserved. </p></Col>
-							</Navbar.Text>
-						</Container>
-					</Nav>
+			<Container>
+				<Nav className="justify-content-center" collapseOnSelect expand="lg" bg="dark" variant="dark">
+					<Container className="justify-content-center">
+						<Navbar.Text className="align-item-center">
+							<Col md={{ span: 6, offset: 3 }} ><p><CgCopyright style={{ fontSize: "20px" }} /> 2022 Pallet305. All rights reserved. </p></Col>
+						</Navbar.Text>
+					</Container>
+				</Nav>
 
-				</Container>
+			</Container>
 
 		</Container>
 	</div>
