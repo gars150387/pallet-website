@@ -7,10 +7,10 @@
 }
 
 .text-about {
-  font-family: cursive;
+  font-family: 'Courier New', Courier, monospace;
   font-style: normal;
-  font-size: 1.2em;
-  font-weight: 900;
+  font-size: 45px;
+  font-weight: bolder;
   text-align: justify;
   padding-top: 23px; 
   color: #FFFFFF;

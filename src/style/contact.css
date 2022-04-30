@@ -4,12 +4,13 @@
   
   #contact-title{
     margin: 15px;
-    font-family: cursive;
+    font-family: 'Courier New', Courier, monospace;
     font-style: normal;
     font-size: 35px;
     font-weight: bolder;
     padding-top: 23px; 
     color: #FFFFFF;
+    text-shadow: 4px 3px 2px #212529;
   
   }
   Link{
