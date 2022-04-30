@@ -13,7 +13,7 @@ export const About = () => {
     return (
         <Container className='aboutContainer'>
                   <ScrollUp/>
-            <Row>
+            <Row clasName='row-about-text'>
                 <Col md={7} className='text-about'>
                     <h4 >
                         Pallet305 is a company that was born in 2019, it specializes in creating, designing and modifying outdoor furniture, our product is exported from Spain, which is certified and treated.
@@ -29,16 +29,15 @@ export const About = () => {
                     </h4>
                     <br />
                     <Link to="/design">
-                        <h4 className='animate__animated animate__pulse animate__infinite animate__slower'>
+                        <h4 className='animate__animated animate__pulse animate__infinite animate__slower' style={{ color: 'white', textDecoration: 'underline'}}>
                             ... view our work here
                         </h4>
                     </Link>
                 </Col>
-                <Col id='imgAbout'>
-                    <Card.Img variant="" src={require("../img/iran/iran/iran (1).jpg")} style={{ paddingTop: "22px" }} />
+                <Col>
+                    <Card.Img id='imgAbout' variant="" src={require("../img/iran/iran/iran (1).jpg")} style={{ paddingTop: "15px" }} />
                 </Col>
             </Row>
-            <hr />
             <Row>
                 <Col >
                     <Card.Img id='magazine' src={require('../img/iran/magazine/magazine (6).jpg')} alt='../img/iran/magazine/magazine (6).jpg' />
