@@ -1,12 +1,16 @@
-@media only screen and (min-width: 601px){
+@media only screen and (max-width: 601px){
     .card-img{
-        /* height: 50vh;
-        width: 65vw; */
+        height: 50vh;
+        width: 100vw;
         border-radius: 35px;
         border-bottom: 1px solid whitesmoke;
         border-color: #212529;
         margin: auto;
+        margin-top: 8%;
+        margin-bottom: 7%;
+        border-color: #FFFFFF;
     }
+    
 }
 
 #col-home{
@@ -19,13 +23,6 @@
 }
 .container-fluid {
     padding: 2px;
-}
-
-#container-fluid {
-    background-image: url('https://i.pinimg.com/originals/db/76/76/db7676a114b1da549b48477d9750b2b9.jpg');
-    background-size: contain;
-    background-repeat: repeat-y;
-    background-repeat: repeat-x;
 }
 
 .carousel-control-next {

@@ -4,6 +4,12 @@
   
   #contact-title{
     margin: 15px;
+    font-family: cursive;
+    font-size: 35px;
+    font-weight: bolder;
+    padding-top: 23px; 
+    color: #FFFFFF;
+  
   }
   Link{
       color: black

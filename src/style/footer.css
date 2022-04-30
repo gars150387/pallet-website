@@ -1,6 +1,9 @@
 .footer{
     background-color: #212529;
-    height: 210px;
+    position: static;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
     
 }
 h5{
