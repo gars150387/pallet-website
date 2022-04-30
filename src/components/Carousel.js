@@ -3,7 +3,6 @@ import { Carousel, Row, Card } from "react-bootstrap";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/carousel.css'
-// import '../style/home.css';
 
 
 import '../img/furnitures/furnitures (12).jpeg'
