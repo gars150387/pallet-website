@@ -12,7 +12,7 @@ export const Contact = () => {
                 <Col md={{ span: 6, offset: 3 }}>
                     <Row>
                         <Col className="text-center">
-                            <h3 id="contact-title">Free quotation and questions <br /> Please contact us.</h3>
+                            <h3 id="contact-title">For free quotation and questions <br /> Please contact us.</h3>
                         </Col>
                     </Row>
                     <Row>
