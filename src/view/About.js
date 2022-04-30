@@ -15,19 +15,17 @@ export const About = () => {
                   <ScrollUp/>
             <Row clasName='row-about-text'>
                 <Col md={7} className='text-about'>
-                    <h4 >
+                    <h4>
                         Pallet305 is a company that was born in 2019, it specializes in creating, designing and modifying outdoor furniture, our product is exported from Spain, which is certified and treated.
                     </h4>
-                    <br />
-                    <h4 >
+                    <br/>
+                    {/* <h4 >
                         Some of our most demanded jobs for patios are sofas, coffee tables, planters, bars, loungers, mailboxes and much more variety. For interiors, custom beds, sliding doors, etc.
-                    </h4>
-                    <br />
+                    </h4> */}
                     <h4 >
                         We build pergolas and wooden floors (PT) to everyone's taste and satisfaction.
                         Our priority is the customer, we are proud to be able to provide the best service and quality with our products.
                     </h4>
-                    <br />
                     <Link to="/design">
                         <h4 className='animate__animated animate__pulse animate__infinite animate__slower' style={{ color: 'white', textDecoration: 'underline'}}>
                             ... view our work here
