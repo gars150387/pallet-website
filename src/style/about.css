@@ -1,50 +1,75 @@
-@media only screen and ( max-width: 600px){
-  #imgAbout{
+@media only screen and (max-width: 600px) {
+  #imgAbout {
+    height: 50vh;
     width: 95vw;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    }
-    .text-about {
-      font-family: 'Courier New', Courier, monospace;
-      font-style: normal;
-      font-size: 45px;
-      font-weight: bolder;
-      text-align: justify;
-      padding-top: 23px; 
-      color: #FFFFFF;
-      text-shadow: 4px 3px 4px black;
-    }
+    background-color: transparent;
+    padding-top: -20px;
+    padding-bottom: 1%;
+    margin-top: 0%;
+    box-shadow: none;
+    border-color: transparent;
+  }
+
+  .text-about {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: justify;
+    padding-top: 23px;
+    color: #FFFFFF;
+    text-shadow: 4px 3px 4px black;
+  }
+
+  .col-imag-about {
+    height: 50vh;
+  }
+  #magazine {
+    height: 99%;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 15px;
+    background-color: white;
+    box-shadow: none;
+  }
 }
 
-.text-about {
-  font-family: 'Courier New', Courier, monospace;
-  font-style: normal;
-  font-size: 45px;
-  font-weight: bolder;
-  text-align: justify;
-  padding-top: 23px; 
-  color: #FFFFFF;
-  text-shadow: 4px 3px 4px #212529;
-}
-
-.row-about-text{
-  background-color:#323232;
-}
-.animate__animated {
-  z-index: 1;
-}
-
-/* #imgAbout{
-  width: 26vw;
-  border-radius: 15px;
-
-} */
-
-#magazine {
-  height: 99%;
-  width: 100%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  padding-bottom: 15px;
-  background-color: white;
+@media only screen and (min-width: 601px){
+  .text-about {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: justify;
+    padding-top: 23px;
+    color: #FFFFFF;
+    text-shadow: 4px 3px 4px #212529;
+  }
+  
+  .row-about-text {
+    background-color: #323232;
+  }
+  
+  .animate__animated {
+    z-index: 1;
+  }
+  
+  #imgAbout {
+    width: 26vw;
+    box-shadow: none;
+    border-color: transparent;
+    margin-top: 0%;
+  
+  }
+  
+  #magazine {
+    height: 99%;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 15px;
+    background-color: white;
+    box-shadow: none;
+  }
 }

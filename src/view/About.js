@@ -32,7 +32,7 @@ export const About = () => {
                         </h4>
                     </Link>
                 </Col>
-                <Col>
+                <Col className="col-imag-about">
                     <Card.Img id='imgAbout' variant="" src={require("../img/iran/iran/iran (1).jpg")} style={{ paddingTop: "15px" }} />
                 </Col>
             </Row>
