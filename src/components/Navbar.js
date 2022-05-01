@@ -4,6 +4,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap'
 
 import { FaFacebookF, FaInstagram } from 'react-icons/fa'
 import { ImWhatsapp } from 'react-icons/im';
+import { SiTiktok } from 'react-icons/si'
 import { Row } from "react-bootstrap";
 import '../img/iran/logo/white-logo-transparent-background.png'
 
@@ -41,11 +42,15 @@ export const NavbarWebsite = () => {
                             <Link to="./contact">
                                 <Nav.Link href="./contact">Contact Us</Nav.Link>
                             </Link>
+                            <Link to="./customer">
+                                <Nav.Link href="./customer">Our Customers</Nav.Link>
+                            </Link>
                         </Nav>
                         <Nav>
 
                             <Nav.Link eventKey={2} target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Pallet305"><FaFacebookF id='icons' style={{ fontSize: "35px" }} /></Nav.Link>
                             <Nav.Link eventKey={2} target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pallet_305/"><FaInstagram id='icons' style={{ fontSize: "40px" }} /></Nav.Link>
+                            <Nav.Link eventKey={2} target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@pallet305?lang=en"><SiTiktok id='icons' style={{ fontSize: "35px" }} /></Nav.Link>
                             <Nav.Link eventKey={2} target="_blank" rel="noopener noreferrer" href="https://wa.me/message/SXDE7GX6G4OUF1"><ImWhatsapp id='icons' style={{ fontSize: "35px" }} /></Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

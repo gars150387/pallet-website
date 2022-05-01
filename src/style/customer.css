@@ -1,0 +1,53 @@
+@media only screen and (max-width: 600px){
+    #review-template{
+        height: 50vh;
+        width: 90vw;
+        color: #212529;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 5% 
+    }
+    #customer-column{
+        margin-top: 1%;
+    }
+
+    #review-img{
+        height: 32vh;
+    }
+}
+
+@media only screen and ( min-width: 601px){
+    #review-template{
+        width: 20vw;
+        color: #212529;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 1% 
+    }
+}
+.customer-row{
+flex-direction: row;
+display: flexbox;
+flex-direction: row;
+}
+
+#customer-column{
+    flex-direction: row;
+    display: inline-block;
+    margin-left: 1%;
+}
+#review-rendered{
+    display: inline-block;
+}
+
+#customer-text{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-size: 45px;
+    font-weight: 900;
+    text-align: justify;
+    padding-top: 23px; 
+    color: #FFFFFF;
+    text-shadow: 4px 3px 2px #212529;
+  
+}

@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { FaFacebookF, FaInstagram } from 'react-icons/fa'
 import { ImWhatsapp } from 'react-icons/im'
 import { CgCopyright } from 'react-icons/cg'
+import { SiTiktok } from 'react-icons/si'
 import { Navbar, Nav, Container, Row, Col } from "react-bootstrap";
 
 
@@ -16,7 +17,7 @@ export const Footer = () => (
 				<Container>
 					<Row>
 						<Row style={{ height: "10px" }}></Row>
-						<Col md={6}>
+						<Col md={7}>
 							<Link to="./">
 								<h5>Home</h5>
 							</Link>
@@ -25,6 +26,11 @@ export const Footer = () => (
 							</Link>
 							<Link to="./design">
 								<h5>Projects</h5>
+							</Link>
+						</Col>
+						<Col>
+							<Link to="./customer">
+								<h5>Our Customers</h5>
 							</Link>
 							<Link to="./contact">
 								<h5>Contact</h5>
@@ -41,6 +47,9 @@ export const Footer = () => (
 								<a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pallet_305/"><FaInstagram id='iconsFooter' style={{ fontSize: "35px" }} /></a>
 							</Col>
 							<Col className="justify-content-center" style={{ fontSize: "60px" }}>
+								<a target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@pallet305?lang=en"><SiTiktok id='iconsFooter' style={{ fontSize: "37px" }} /></a>
+							</Col>
+							<Col className="justify-content-center" style={{ fontSize: "60px" }}>
 								<a target="_blank" rel="noopener noreferrer" href="https://wa.me/message/SXDE7GX6G4OUF1"><ImWhatsapp id='iconsFooter' style={{ fontSize: "37px" }} /></a>
 							</Col>
 						</Row>
@@ -50,16 +59,16 @@ export const Footer = () => (
 			</Navbar>
 		</Container>
 		<Container fluid>
-		<Container>
-					<Nav className="justify-content-center" collapseOnSelect expand="lg" bg="dark" variant="dark">
-						<Container className="justify-content-center">
-							<Navbar.Text className="align-item-center">
-								<Col  md={{ span: 6, offset: 3 }} ><p><CgCopyright style={{fontSize: "20px"}} /> 2022 Pallet305. All rights reserved. </p></Col>
-							</Navbar.Text>
-						</Container>
-					</Nav>
+			<Container>
+				<Nav className="justify-content-center" collapseOnSelect expand="lg" bg="dark" variant="dark">
+					<Container className="justify-content-center">
+						<Navbar.Text className="align-item-center">
+							<Col md={{ span: 6, offset: 3 }} ><p><CgCopyright style={{ fontSize: "20px" }} /> 2022 Pallet305. All rights reserved. </p></Col>
+						</Navbar.Text>
+					</Container>
+				</Nav>
 
-				</Container>
+			</Container>
 
 		</Container>
 	</div>

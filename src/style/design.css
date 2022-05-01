@@ -1,19 +1,20 @@
-.designComponent{
-    background-image: url('https://i.pinimg.com/originals/db/76/76/db7676a114b1da549b48477d9750b2b9.jpg');
-    background-size: contain;
-    background-repeat: repeat-y;
+@media only screen and (max-width: 600px){
+    #button-selector{
+        padding-left: 7%;
+    }
 }
-
 #designImg{
     height: 100%;
     width: 100%;
     border-radius: 15px;
     border: solid 2px ;
     align-items: center;
+    margin-top: 0%;
 }
 
 #template{
     width: 100%;
+    height: 55vh;
     border-radius: 25px;
     background-color: whitesmoke;
     align-items: center;
@@ -37,15 +38,9 @@
 
 }
 
+
 #button:hover{
     background-color: darkgray;
     filter: blur(0);
-
     transition: .3s ease;
   }
-    
-/* #button:target{
-      color: #212529;
-      background-color: darkgray;
-
-  } */

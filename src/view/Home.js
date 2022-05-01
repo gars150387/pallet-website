@@ -1,6 +1,9 @@
 import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
+
 import { CarouselMain } from '../components/Carousel'
-import { Col, Container, Row} from "react-bootstrap";
+import '../img/iran/logo/white-logo-transparent-background.png'
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/home.css';
@@ -9,13 +12,12 @@ import 'animate.css';
 export const Home = () => {
 
 	return (
-		<Container id="container-fluid" fluid>
+		<Container className="homePage" id="container-fluid">
 			<Row>
-			<Col className="animate_animated animate__backInDown" md={{ span: 6, offset: 3 }}>
-				<CarouselMain />
-			</Col>	
+				<Col md={{span: 7, offset: 1}} id='col-home' className="animate_animated animate__backInDown">
+					<CarouselMain className='carousel-home' />
+				</Col>
 			</Row>
-			<Row></Row>
 		</Container>
 	)
 };
