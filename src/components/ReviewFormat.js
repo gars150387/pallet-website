@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
 
-import '../img/pergola/pergola (21).jpeg'
+// import '../img/pergola/pergola (21).jpeg'
 
 
 export const ReviewFormat = () => {
@@ -9,7 +9,7 @@ export const ReviewFormat = () => {
         <>
             <Card className="bg-dark text-white mt-3">
                 <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/p/CbJUY8fucVp/">
-                    <Card.Img src={require('../img/pergola/pergola (21).jpeg')} alt="pergola (21).jpeg" />
+                    {/* <Card.Img src={require('../img/pergola/pergola (21).jpeg')} alt="pergola (21).jpeg" /> */}
 
                     <Card.ImgOverlay className='bg-light' style={{ height: '40vh', width: '20vw', position: 'absolute', top: '20%', left: '30%', opacity: '0.5', border: 'solid 1px black', borderRadius: '15px' }}>
                         <Card.Text style={{ color: '#212529', fontSize: '25px', fontFamily: '600', marginTop: '10%', fontWeight: '650' }}>
