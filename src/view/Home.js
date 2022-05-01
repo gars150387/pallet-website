@@ -12,9 +12,9 @@ import 'animate.css';
 export const Home = () => {
 
 	return (
-		<Container className="homePage" id="container-fluid" fluid>
+		<Container className="homePage" id="container-fluid">
 			<Row>
-				<Col md={{span: 8, offset: 2}} id='col-home' className="animate_animated animate__backInDown">
+				<Col md={{span: 7, offset: 1}} id='col-home' className="animate_animated animate__backInDown">
 					<CarouselMain className='carousel-home' />
 				</Col>
 			</Row>
