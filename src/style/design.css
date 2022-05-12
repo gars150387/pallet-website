@@ -12,7 +12,7 @@
     margin-top: 0%;
 }
 
-#template{
+/* #template{
     width: 100%;
     height: 55vh;
     border-radius: 25px;
@@ -22,7 +22,7 @@
     border-radius: 15px;
     box-shadow: 3px 3px 3px whitesmoke
     
-}
+} */
 .animate__animated {
         z-index: 1;
   }
