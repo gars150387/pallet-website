@@ -299,4 +299,24 @@ export const DesignData = [
     'id': '43',
     'img': 'pergola/pergola (20).jpeg',
     'category': 'pergola'
-}]
+},{
+    'id': '65',
+    'img': 'furnitures/furnitures (27).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '66',
+    'img': 'furnitures/furnitures (28).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '67',
+    'img': 'furnitures/furnitures (19).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '100',
+    'img': 'pergola/pergola (21).jpeg',
+    'category': 'pergola'
+},{
+    'id': '101',
+    'img': 'pergola/pergola (22).jpeg',
+    'category': 'pergola'
+},]
