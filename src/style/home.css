@@ -16,7 +16,7 @@
 
 @media only screen and (min-width: 601px) {
     .card-img {
-        height: 50vh;
+        height: 60vh;
         width: 100vw;
         /* border-radius: 35px; */
         border-bottom: 1px solid whitesmoke;
