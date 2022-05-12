@@ -15,7 +15,7 @@ export const Design = () => {
 
 
     const handleClick = ({ setvalue }) => {
-        setvalue()
+        setvalue(value)
     }
 
     const renderedChoice = DesignData.filter((item) => item.category === value)
@@ -47,7 +47,7 @@ export const Design = () => {
                             })
                         }
                     </Col>
-                    <col sm={3}></col>
+                    <Col sm={3}></Col>
                 </Row>
             </Container>
 
