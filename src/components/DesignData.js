@@ -120,6 +120,14 @@ export const DesignData = [
     'img': 'floor/floor (21).jpeg',
     'category': 'floor'
 },{
+    'id': '70',
+    'img': 'furnitures/furnitures (0).jpeg',
+    'category': 'furnitures'
+},{
+    'id': '71',
+    'img': 'furnitures/furnitures (00).jpeg',
+    'category': 'furnitures'
+},{
     'id': '51',
     'img': 'furnitures/furnitures (8).jpeg',
     'category': 'furnitures'
@@ -319,12 +327,4 @@ export const DesignData = [
     'id': '101',
     'img': 'pergola/pergola (22).jpeg',
     'category': 'pergola'
-},{
-    'id': '70',
-    'img': 'furnitures/furnitures (0).jpeg',
-    'category': 'furnitures'
-},{
-    'id': '71',
-    'img': 'furnitures/furnitures (00).jpeg',
-    'category': 'furnitures'
 },]
