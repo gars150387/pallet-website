@@ -2,6 +2,20 @@
 
 export const DesignData = [ 
     {
+        'id': '72',
+        'img': 'pergola/pergola (23).jpeg',
+        'category': 'pergola'
+    },
+    {
+        'id': '73',
+        'img': 'pergola/pergola (24).jpg',
+        'category': 'pergola'
+    },
+    {
+        'id': '74',
+        'img': 'pergola/pergola (25).jpeg',
+        'category': 'pergola'
+    },{
     'id': '01',
     'img': 'pergola/pergola (1).jpeg',
     'category': 'pergola'
