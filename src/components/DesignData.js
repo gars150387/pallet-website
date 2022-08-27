@@ -154,6 +154,41 @@ export const DesignData = [
     category: "floor",
   },
   {
+    id: "71",
+    img: "furnitures/furnitures (30).jpeg",
+    category: "furnitures",
+  },
+  {
+    id: "72",
+    img: "furnitures/furnitures (31).jpeg",
+    category: "furnitures",
+  },
+  {
+    id: "73",
+    img: "furnitures/furnitures (32).jpeg",
+    category: "furnitures",
+  },
+  {
+    id: "74",
+    img: "furnitures/furnitures (33).jpeg",
+    category: "furnitures",
+  },
+  {
+    id: "75",
+    img: "furnitures/furnitures (34).jpeg",
+    category: "furnitures",
+  },
+  {
+    id: "76",
+    img: "furnitures/furnitures (35).jpeg",
+    category: "furnitures",
+  },
+  {
+    id: "77",
+    img: "furnitures/furnitures (36).jpeg",
+    category: "furnitures",
+  },
+  {
     id: "70",
     img: "furnitures/furnitures (0).jpeg",
     category: "furnitures",
