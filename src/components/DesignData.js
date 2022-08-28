@@ -374,6 +374,16 @@ export const DesignData = [
     category: "adornos",
   },
   {
+    id: "80",
+    img: "adornos/adornos (4).jpeg",
+    category: "adornos",
+  },
+  {
+    id: "81",
+    img: "adornos/adornos (45).jpeg",
+    category: "adornos",
+  },
+  {
     id: "35",
     img: "floor/floor (2).jpeg",
     category: "floor",
@@ -436,6 +446,21 @@ export const DesignData = [
   {
     id: "67",
     img: "furnitures/furnitures (19).jpeg",
+    category: "furnitures",
+  },
+  {
+    id: "82",
+    img: "furnitures/furnitures (37).jpeg",
+    category: "furnitures",
+  },
+  {
+    id: "83",
+    img: "furnitures/furnitures (38).jpeg",
+    category: "furnitures",
+  },
+  {
+    id: "84",
+    img: "furnitures/furnitures (39).jpeg",
     category: "furnitures",
   },
   {
