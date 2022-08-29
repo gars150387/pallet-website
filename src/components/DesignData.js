@@ -84,6 +84,62 @@ export const DesignData = [
     category: "pergola",
   },
   {
+    id: "100",
+    img: "pergola/pergola (21).jpeg",
+    category: "pergola",
+  },
+  {
+    id: "101",
+    img: "pergola/pergola (22).jpeg",
+    category: "pergola",
+  },
+  
+  {
+    id: "37",
+    img: "pergola/pergola (14).jpeg",
+    category: "pergola",
+  },
+  {
+    id: "38",
+    img: "pergola/pergola (15).jpeg",
+    category: "pergola",
+  },
+  {
+    id: "39",
+    img: "pergola/pergola (16).jpeg",
+    category: "pergola",
+  },
+  {
+    id: "40",
+    img: "pergola/pergola (17).jpeg",
+    category: "pergola",
+  },
+  {
+    id: "41",
+    img: "pergola/pergola (18).jpeg",
+    category: "pergola",
+  },
+  {
+    id: "42",
+    img: "pergola/pergola (19).jpeg",
+    category: "pergola",
+  },
+  {
+    id: "43",
+    img: "pergola/pergola (20).jpeg",
+    category: "pergola",
+  },
+  {
+    id: "36",
+    img: "floor/floor (2).jpeg",
+    category: "floor",
+  },
+  {
+    id: "37",
+    img: "floor/floor (6).jpeg",
+    category: "floor",
+  },
+  {
     id: "15",
     img: "floor/floor (1).jpeg",
     category: "floor",
@@ -159,6 +215,22 @@ export const DesignData = [
     category: "furnitures",
   },
   {
+    id: "85",
+    img: "furnitures/furnitures (27).jpeg",
+    category: "furnitures",
+  },
+  {
+    id: "96",
+    img: "furnitures/furnitures (28).jpeg",
+    category: "furnitures",
+  },
+  {
+    id: "67",
+    img: "furnitures/furnitures (19).jpeg",
+    category: "furnitures",
+  },
+  
+  {
     id: "72",
     img: "furnitures/furnitures (31).jpeg",
     category: "furnitures",
@@ -181,6 +253,21 @@ export const DesignData = [
   {
     id: "76",
     img: "furnitures/furnitures (35).jpeg",
+    category: "furnitures",
+  },
+  {
+    id: "82",
+    img: "furnitures/furnitures (37).jpeg",
+    category: "furnitures",
+  },
+  {
+    id: "83",
+    img: "furnitures/furnitures (38).jpeg",
+    category: "furnitures",
+  },
+  {
+    id: "84",
+    img: "furnitures/furnitures (39).jpeg",
     category: "furnitures",
   },
   {
@@ -344,6 +431,16 @@ export const DesignData = [
     category: "furnitures",
   },
   {
+    id: "80",
+    img: "adornos/adornos (4).jpeg",
+    category: "adornos",
+  },
+  {
+    id: "81",
+    img: "adornos/adornos (45).jpeg",
+    category: "adornos",
+  },
+  {
     id: "29",
     img: "adornos/adornos (1).jpeg",
     category: "adornos",
@@ -373,104 +470,7 @@ export const DesignData = [
     img: "adornos/adornos (4).jpg",
     category: "adornos",
   },
-  {
-    id: "80",
-    img: "adornos/adornos (4).jpeg",
-    category: "adornos",
-  },
-  {
-    id: "81",
-    img: "adornos/adornos (45).jpeg",
-    category: "adornos",
-  },
-  {
-    id: "35",
-    img: "floor/floor (2).jpeg",
-    category: "floor",
-  },
-  {
-    id: "36",
-    img: "floor/floor (2).jpeg",
-    category: "floor",
-  },
-  {
-    id: "37",
-    img: "floor/floor (6).jpeg",
-    category: "floor",
-  },
-  {
-    id: "37",
-    img: "pergola/pergola (14).jpeg",
-    category: "pergola",
-  },
-  {
-    id: "38",
-    img: "pergola/pergola (15).jpeg",
-    category: "pergola",
-  },
-  {
-    id: "39",
-    img: "pergola/pergola (16).jpeg",
-    category: "pergola",
-  },
-  {
-    id: "40",
-    img: "pergola/pergola (17).jpeg",
-    category: "pergola",
-  },
-  {
-    id: "41",
-    img: "pergola/pergola (18).jpeg",
-    category: "pergola",
-  },
-  {
-    id: "42",
-    img: "pergola/pergola (19).jpeg",
-    category: "pergola",
-  },
-  {
-    id: "43",
-    img: "pergola/pergola (20).jpeg",
-    category: "pergola",
-  },
-  {
-    id: "85",
-    img: "furnitures/furnitures (27).jpeg",
-    category: "furnitures",
-  },
-  {
-    id: "96",
-    img: "furnitures/furnitures (28).jpeg",
-    category: "furnitures",
-  },
-  {
-    id: "67",
-    img: "furnitures/furnitures (19).jpeg",
-    category: "furnitures",
-  },
-  {
-    id: "82",
-    img: "furnitures/furnitures (37).jpeg",
-    category: "furnitures",
-  },
-  {
-    id: "83",
-    img: "furnitures/furnitures (38).jpeg",
-    category: "furnitures",
-  },
-  {
-    id: "84",
-    img: "furnitures/furnitures (39).jpeg",
-    category: "furnitures",
-  },
-  {
-    id: "100",
-    img: "pergola/pergola (21).jpeg",
-    category: "pergola",
-  },
-  {
-    id: "101",
-    img: "pergola/pergola (22).jpeg",
-    category: "pergola",
-  },
+ 
+  
+  
 ];
