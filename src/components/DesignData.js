@@ -210,6 +210,21 @@ export const DesignData = [
     category: "floor",
   },
   {
+    id: "92",
+    img: "furnitures/furnitures (14).jpg",
+    category: "furnitures",
+  },
+  {
+    id: "93",
+    img: "furnitures/furnitures (15).jpg",
+    category: "furnitures",
+  },
+  {
+    id: "94",
+    img: "furnitures/furnitures (16).jpg",
+    category: "furnitures",
+  },
+  {
     id: "71",
     img: "furnitures/furnitures (30).jpeg",
     category: "furnitures",
